@@ -2,7 +2,7 @@
 
 ## Lliurables
 
-- 1 document PDF. 
+- Activitat 1. Què sabem sobre la IA? s'ha de lliurar en **1 document PDF**. 
 
 ## Rúbrica
 
