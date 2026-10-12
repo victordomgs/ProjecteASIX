@@ -2,8 +2,8 @@
 
 ## Lliurables
 
-- [Activitat 1. Desplegament d'OpenClaw]([https://victordomgs.github.io/ProjecteASIX/p1-prompt-engineering/activitats/](https://victordomgs.github.io/ProjecteASIX/p2-openclaw/activitats/#activitat-1-desplegament-dopenclaw)) s'ha de lliurar en **1 document PDF per grup**.
-- [Activitat 2. Agent Camp]([https://victordomgs.github.io/ProjecteASIX/p1-prompt-engineering/activitats/](https://victordomgs.github.io/ProjecteASIX/p2-openclaw/activitats/#activitat-1-desplegament-dopenclaw)) és avaluable i s'ha de lliurar en **1 document PDF per grup**.
+- [Activitat 1. Desplegament d'OpenClaw](https://victordomgs.github.io/ProjecteASIX/p2-openclaw/activitats/#activitat-1-desplegament-dopenclaw) s'ha de lliurar en **1 document PDF per grup**.
+- [Activitat 2. Agent Camp](https://victordomgs.github.io/ProjecteASIX/p2-openclaw/activitats/#activitat-2-agent-camp) és **avaluable** i s'ha de lliurar en **1 document PDF per grup**.
 
 ## Rúbrica
 
