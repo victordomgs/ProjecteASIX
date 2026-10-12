@@ -2,10 +2,9 @@
 
 ## Lliurables
 
-- _pendent_
+- [Activitat 1. Pràctica de prompting I](https://victordomgs.github.io/ProjecteASIX/p1-prompt-engineering/activitats/)
 
 ## Rúbrica
 
-| Criteri | Excel·lent (4) | Bé (3) | Suficient (2) | Insuficient (1) | Pes |
-|---|---|---|---|---|---|
-| _pendent_ | | | | | |
+No s'avalua.
+
