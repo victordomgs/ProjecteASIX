@@ -2,7 +2,7 @@
 
 Material del bloc d'IA (49 h) del mòdul de Projecte (M0379) de 2n d'ASIX.
 
-🌐 Web: https://USUARI.github.io/asix-ia-sistemes/
+🌐 Web: https://victordomgs.github.io/ProjecteASIX/
 
 ## Estructura
 

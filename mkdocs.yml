@@ -1,8 +1,8 @@
 site_name: IA en sistemes · 2n ASIX
 site_description: Aplicació i desplegament d'IA en sistemes — M0379 Projecte
-site_author: Víctor
-repo_url: https://github.com/USUARI/asix-ia-sistemes
-site_url: https://USUARI.github.io/asix-ia-sistemes/
+site_author: "@victordomgs"
+repo_url: https://github.com/victordomgs/ProjecteASIX
+site_url: https://victordomgs.github.io/ProjecteASIX/
 copyright: Contingut sota llicència CC BY-SA 4.0
 
 theme:
@@ -50,7 +50,7 @@ nav:
   - Inici: index.md
   - "Projecte 0. Introducció a la IA":
       - p0-introduccio-ia/index.md
-      - Teoria: p0-introduccio-ia/teoria.md
+      - Fonaments de la IA: p0-introduccio-ia/teoria.md
       - Activitats: p0-introduccio-ia/activitats.md
       - Avaluació: p0-introduccio-ia/avaluacio.md
   - "Projecte 1. Prompt engineering orientat a ASIX":
