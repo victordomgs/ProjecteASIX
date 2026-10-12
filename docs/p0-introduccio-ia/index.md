@@ -1,6 +1,8 @@
-# Projecte 0. Introducció a la IA
+<span class="eyebrow">Projecte 0</span>
 
-Visió general de la intel·ligència artificial: què és, quins paradigmes hi ha i on s'aplica. Serveix de punt de partida comú per a la resta de projectes.
+# Introducció a la IA
+
+<p class="lead">Visió general de la intel·ligència artificial: què és, quins paradigmes hi ha i on s'aplica. Serveix de punt de partida comú per a la resta de projectes.</p>
 
 | | |
 |---|---|

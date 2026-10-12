@@ -1,6 +1,8 @@
-# Projecte 5. Automatització d'anàlisi de logs amb LLM
+<span class="eyebrow">Projecte 5</span>
 
-Pipeline que recull logs, els analitza amb un LLM i genera alertes i informes.
+# Automatització d'anàlisi de logs amb LLM
+
+<p class="lead">Pipeline que recull logs, els analitza amb un LLM i genera alertes i informes.</p>
 
 | | |
 |---|---|

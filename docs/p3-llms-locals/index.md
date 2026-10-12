@@ -1,6 +1,8 @@
-# Projecte 3. Desplegament i gestió de LLMs locals
+<span class="eyebrow">Projecte 3</span>
 
-Desplegament de models de llenguatge en infraestructura pròpia, gestió de recursos i exposició com a servei.
+# Desplegament i gestió de LLMs locals
+
+<p class="lead">Desplegament de models de llenguatge en infraestructura pròpia, gestió de recursos i exposició com a servei.</p>
 
 | | |
 |---|---|

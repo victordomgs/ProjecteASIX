@@ -13,7 +13,7 @@ theme:
     text: Inter
     code: JetBrains Mono
   icon:
-    logo: material/robot-outline
+    logo: material/brain
     repo: fontawesome/brands/github
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -27,13 +27,14 @@ theme:
       accent: custom
       toggle: {icon: material/weather-sunny, name: Mode clar}
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.indexes
     - navigation.top
     - navigation.footer
+    - navigation.instant
+    - navigation.tracking
     - toc.follow
     - search.highlight
+    - search.suggest
     - content.code.copy
     - content.tabs.link
 
@@ -51,9 +52,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight: {anchor_linenums: true}
   - pymdownx.inlinehilite
   - pymdownx.superfences:
@@ -66,7 +64,7 @@ markdown_extensions:
 
 nav:
   - Inici: index.md
-  - "P0 · Introducció":
+  - "P0 · Introducció a la IA":
       - p0-introduccio-ia/index.md
       - Fonaments de la IA: p0-introduccio-ia/teoria.md
       - Activitats: p0-introduccio-ia/activitats.md
@@ -76,7 +74,7 @@ nav:
       - Teoria: p1-prompt-engineering/teoria.md
       - Activitats: p1-prompt-engineering/activitats.md
       - Avaluació: p1-prompt-engineering/avaluacio.md
-  - "P2 · Agents":
+  - "P2 · Agents amb OpenClaw":
       - p2-openclaw/index.md
       - Teoria: p2-openclaw/teoria.md
       - Activitats: p2-openclaw/activitats.md
@@ -86,17 +84,17 @@ nav:
       - Teoria: p3-llms-locals/teoria.md
       - Activitats: p3-llms-locals/activitats.md
       - Avaluació: p3-llms-locals/avaluacio.md
-  - "P4 · ChromaDB":
+  - "P4 · BBDD vectorials":
       - p4-chromadb/index.md
       - Teoria: p4-chromadb/teoria.md
       - Activitats: p4-chromadb/activitats.md
       - Avaluació: p4-chromadb/avaluacio.md
-  - "P5 · Logs amb LLM":
+  - "P5 · Anàlisi de logs amb LLM":
       - p5-logs-llm/index.md
       - Teoria: p5-logs-llm/teoria.md
       - Activitats: p5-logs-llm/activitats.md
       - Avaluació: p5-logs-llm/avaluacio.md
-  - "P6 · AzureML":
+  - "P6 · ML al cloud (AzureML)":
       - p6-azureml/index.md
       - Teoria: p6-azureml/teoria.md
       - Activitats: p6-azureml/activitats.md

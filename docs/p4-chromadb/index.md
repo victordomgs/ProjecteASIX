@@ -1,6 +1,8 @@
-# Projecte 4. Desplegament de BBDD vectorials (ChromaDB)
+<span class="eyebrow">Projecte 4</span>
 
-Desplegament d'una base de dades vectorial i ús en un sistema de recuperació d'informació (RAG).
+# Desplegament de BBDD vectorials (ChromaDB)
+
+<p class="lead">Desplegament d'una base de dades vectorial i ús en un sistema de recuperació d'informació (RAG).</p>
 
 | | |
 |---|---|

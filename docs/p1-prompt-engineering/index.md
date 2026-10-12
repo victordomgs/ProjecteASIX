@@ -1,6 +1,8 @@
-# Projecte 1. Prompt engineering orientat a ASIX
+<span class="eyebrow">Projecte 1</span>
 
-Tècniques de prompting aplicades a tasques d'administració: scripts, configuracions, diagnòstic i documentació.
+# Prompt engineering orientat a ASIX
+
+<p class="lead">Tècniques de prompting aplicades a tasques d'administració: scripts, configuracions, diagnòstic i documentació.</p>
 
 | | |
 |---|---|

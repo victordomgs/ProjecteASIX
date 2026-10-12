@@ -1,6 +1,8 @@
-# Projecte 2. Orquestració d'agents amb OpenClaw
+<span class="eyebrow">Projecte 2</span>
 
-Disseny i execució d'agents que automatitzen tasques de sistemes de manera controlada.
+# Orquestració d'agents amb OpenClaw
+
+<p class="lead">Disseny i execució d'agents que automatitzen tasques de sistemes de manera controlada.</p>
 
 | | |
 |---|---|

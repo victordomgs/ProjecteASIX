@@ -1,6 +1,8 @@
-# Projecte 6. Desplegament de models ML al cloud (AzureML)
+<span class="eyebrow">Projecte 6</span>
 
-Entrenament, registre i desplegament d'un model com a endpoint a Azure Machine Learning.
+# Desplegament de models ML al cloud (AzureML)
+
+<p class="lead">Entrenament, registre i desplegament d'un model com a endpoint a Azure Machine Learning.</p>
 
 | | |
 |---|---|

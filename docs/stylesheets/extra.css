@@ -1,0 +1,235 @@
+/* ============================================================
+   IA en sistemes · 2n ASIX — tema visual
+   ============================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap");
+
+/* ---------- Colors (mode clar) ---------- */
+:root,
+[data-md-color-scheme="default"] {
+  --ia-ink: #0f1b2d;
+  --ia-teal: #0e8f82;
+  --ia-teal-soft: #e3f4f1;
+  --ia-amber: #e8a33d;
+  --ia-surface: #ffffff;
+  --ia-canvas: #f6f7f4;
+  --ia-line: #e3e6e1;
+  --ia-muted: #5d6a78;
+  --ia-shadow: 0 1px 2px rgba(15, 27, 45, .05), 0 6px 20px rgba(15, 27, 45, .06);
+
+  --md-default-bg-color: var(--ia-canvas);
+  --md-default-fg-color: var(--ia-ink);
+  --md-default-fg-color--light: var(--ia-muted);
+  --md-typeset-a-color: var(--ia-teal);
+}
+
+[data-md-color-primary="custom"] {
+  --md-primary-fg-color: var(--ia-teal);
+  --md-primary-fg-color--light: #2bb3a4;
+  --md-primary-fg-color--dark: #0a6f65;
+  --md-primary-bg-color: #ffffff;
+}
+[data-md-color-accent="custom"] {
+  --md-accent-fg-color: var(--ia-amber);
+  --md-accent-fg-color--transparent: rgba(232, 163, 61, .12);
+}
+
+/* ---------- Colors (mode fosc) ---------- */
+[data-md-color-scheme="slate"] {
+  --ia-ink: #e7ecef;
+  --ia-teal: #3cc9b8;
+  --ia-teal-soft: rgba(60, 201, 184, .12);
+  --ia-surface: #18212c;
+  --ia-canvas: #111820;
+  --ia-line: #263241;
+  --ia-muted: #9aa8b5;
+  --ia-shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
+
+  --md-default-bg-color: var(--ia-canvas);
+  --md-default-fg-color: var(--ia-ink);
+  --md-default-fg-color--light: var(--ia-muted);
+  --md-typeset-a-color: var(--ia-teal);
+  --md-typeset-table-color: var(--ia-line);
+}
+
+/* ---------- Capçalera: neta, clara, amb línia inferior ---------- */
+.md-header {
+  background: var(--ia-surface);
+  color: var(--ia-ink);
+  box-shadow: none;
+  border-bottom: 1px solid var(--ia-line);
+}
+.md-header__title { font-family: "Space Grotesk", var(--md-text-font-family); font-weight: 700; }
+.md-header__button.md-logo { color: var(--ia-teal); }
+.md-header__button.md-logo .md-icon svg,
+.md-header__button.md-logo svg { height: 1.6rem; width: 1.6rem; }
+.md-search__form { background: var(--ia-canvas); border: 1px solid var(--ia-line); border-radius: 10px; }
+.md-search__form:hover { background: var(--ia-canvas); }
+.md-search__input, .md-search__icon { color: var(--ia-ink); }
+.md-search__input::placeholder { color: var(--ia-muted); }
+.md-source { color: var(--ia-muted); }
+
+/* ---------- Menú lateral ---------- */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary .md-sidebar__scrollwrap {
+    background: var(--ia-surface);
+    border: 1px solid var(--ia-line);
+    border-radius: 14px;
+    margin: 0 .4rem 0 0;
+    padding: .4rem 0;
+  }
+}
+.md-nav__title { color: var(--ia-muted); }
+
+/* Elements de primer nivell (projectes) */
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
+  font-weight: 600;
+  color: var(--ia-ink);
+  border-radius: 8px;
+  padding: .4rem .6rem;
+  margin: .1rem .4rem;
+}
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link:hover {
+  background: var(--ia-canvas);
+}
+/* Projecte obert */
+.md-nav--primary > .md-nav__list > .md-nav__item--active > .md-nav__link,
+.md-nav--primary > .md-nav__list > .md-nav__item--active > .md-nav__container > .md-nav__link {
+  background: var(--ia-teal-soft);
+  color: var(--ia-teal);
+}
+/* Subpàgines */
+.md-nav--primary .md-nav__item .md-nav .md-nav__link {
+  font-size: .68rem;
+  padding: .2rem .6rem .2rem 1.6rem;
+  border-left: 2px solid var(--ia-line);
+  margin-left: 1.15rem;
+  border-radius: 0;
+}
+.md-nav--primary .md-nav__item .md-nav .md-nav__link--active {
+  border-left-color: var(--ia-teal);
+  color: var(--ia-teal);
+  font-weight: 600;
+}
+.md-nav__link .md-icon { color: var(--ia-muted); }
+
+/* Índex de la pàgina (dreta) */
+.md-nav--secondary .md-nav__title { font-weight: 600; text-transform: uppercase; letter-spacing: .06em; font-size: .6rem; }
+.md-nav--secondary .md-nav__link--active { color: var(--ia-teal); font-weight: 600; }
+
+/* ---------- Contingut com a "full" ---------- */
+.md-main__inner { margin-top: 1.2rem; }
+.md-content__inner {
+  background: var(--ia-surface);
+  border: 1px solid var(--ia-line);
+  border-radius: 16px;
+  box-shadow: var(--ia-shadow);
+  padding: 1.6rem 2rem 2rem;
+  margin-bottom: 1.6rem;
+}
+@media screen and (max-width: 44.9375em) {
+  .md-content__inner { border-radius: 0; border-left: 0; border-right: 0; padding: 1.2rem 1rem; }
+}
+.md-content__inner::before { display: none; }
+
+/* ---------- Tipografia ---------- */
+.md-typeset { font-size: .82rem; line-height: 1.7; }
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  font-family: "Space Grotesk", var(--md-text-font-family);
+  color: var(--ia-ink);
+  letter-spacing: -.01em;
+}
+.md-typeset h1 { font-weight: 700; font-size: 2rem; margin-bottom: .8rem; }
+.md-typeset h2 {
+  font-weight: 600;
+  font-size: 1.35rem;
+  margin-top: 2.4rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--ia-line);
+}
+.md-typeset h1 + h2, .md-typeset h1 + p + h2 { border-top: 0; padding-top: 0; }
+.md-typeset h3 { font-weight: 600; font-size: 1.05rem; color: var(--ia-teal); }
+.md-typeset strong { color: var(--ia-ink); }
+
+/* Etiqueta superior per als projectes (p. ex. "Projecte 0") */
+.md-typeset .eyebrow {
+  display: inline-block;
+  font-size: .65rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--ia-teal); background: var(--ia-teal-soft);
+  padding: .15rem .55rem; border-radius: 99px; margin-bottom: .4rem;
+}
+.md-typeset .lead { font-size: 1rem; color: var(--ia-muted); max-width: 42rem; }
+
+/* ---------- Llistes de definicions ---------- */
+.md-typeset dl > dt { font-weight: 600; color: var(--ia-teal); }
+.md-typeset dl > dd { border-left: 2px solid var(--ia-line); padding-left: .9rem; margin-left: 0; }
+
+/* ---------- Imatges i vídeos ---------- */
+.md-typeset img, .md-typeset video { border-radius: 12px; }
+.md-typeset figure img, .md-typeset figure video { box-shadow: var(--ia-shadow); }
+.md-typeset figcaption { color: var(--ia-muted); font-size: .72rem; max-width: none; }
+.md-typeset .grid > p > img { box-shadow: var(--ia-shadow); }
+.md-typeset .grid { align-items: center; }
+
+/* ---------- Taules ---------- */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--ia-line); border-radius: 12px; overflow: hidden;
+  box-shadow: none; font-size: .78rem;
+}
+.md-typeset table:not([class]) th {
+  background: var(--ia-canvas); color: var(--ia-ink); font-weight: 600;
+  border-bottom: 1px solid var(--ia-line);
+}
+.md-typeset table:not([class]) td { border-top: 1px solid var(--ia-line); }
+.md-typeset table:not([class]) tr:hover { background: var(--ia-teal-soft); }
+
+/* ---------- Pestanyes i avisos ---------- */
+.md-typeset .tabbed-set { border: 1px solid var(--ia-line); border-radius: 12px; padding: 0 1rem .4rem; }
+.md-typeset .admonition, .md-typeset details {
+  border-radius: 12px; border-width: 1px; box-shadow: none; font-size: .78rem;
+}
+
+/* ---------- Targetes de projectes (portada) ---------- */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border: 1px solid var(--ia-line); border-radius: 14px; background: var(--ia-surface);
+  padding: 1rem 1.1rem; transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-2px); box-shadow: var(--ia-shadow); border-color: var(--ia-teal);
+}
+.md-typeset .grid.cards > ul > li > hr { margin: .5rem 0; border-color: var(--ia-line); }
+.md-typeset .grid.cards .lg { color: var(--ia-teal); }
+.md-typeset .grid.cards p { color: var(--ia-muted); margin: .4rem 0; }
+.md-typeset .grid.cards strong { color: var(--ia-ink); font-family: "Space Grotesk", sans-serif; font-size: .9rem; }
+
+/* Portada */
+.md-typeset .hero {
+  background: linear-gradient(135deg, var(--ia-teal-soft), transparent 70%);
+  border-radius: 14px; padding: 1.6rem 1.6rem 1.2rem; margin: -.4rem -.4rem 1.6rem;
+}
+.md-typeset .hero h1 { font-size: 2.3rem; margin: .2rem 0 .6rem; }
+.md-typeset .hero p { margin: .2rem 0; }
+
+/* Botons */
+.md-typeset .md-button { border-radius: 10px; font-weight: 600; }
+
+/* Peu */
+.md-footer, .md-footer-meta { background: var(--ia-surface); color: var(--ia-muted); border-top: 1px solid var(--ia-line); }
+.md-footer-meta__inner, .md-footer__link { color: var(--ia-muted); }
+.md-footer__title { color: var(--ia-ink); }
+.md-copyright { color: var(--ia-muted); }
+
+/* ---------- Ajustos ---------- */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary .md-nav--primary > .md-nav__title { display: none; }
+}
+@media screen and (max-width: 44.9375em) {
+  .md-main__inner { margin-top: 0; }
+  .md-typeset .hero { margin: 0 0 1.2rem; padding: 1.1rem 1rem; }
+  .md-typeset .hero h1 { font-size: 1.6rem; hyphens: auto; }
+  .md-typeset h1 { font-size: 1.5rem; }
+  .md-typeset .lead { font-size: .85rem; }
+}
+/* Taules sense capçalera (fitxes de projecte) */
+.md-typeset table:not([class]) thead:not(:has(th:not(:empty))) { display: none; }

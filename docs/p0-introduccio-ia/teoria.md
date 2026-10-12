@@ -2,14 +2,27 @@
 
 ## Què és la intel·ligència artificial?
 
-**Intel·ligència**
-:   Capacitat d'aprendre, comprendre i resoldre problemes.
+<div class="grid cards" markdown>
 
-**Intel·ligència artificial**
-:   Intel·ligència exhibida per màquines.
+-   **Intel·ligència**
 
-**Màquina intel·ligent**
-:   Sistema que pot percebre el seu entorn i prendre accions que maximitzen les seves possibilitats d'èxit en un objectiu.
+    ---
+
+    Capacitat d'aprendre, comprendre i resoldre problemes.
+
+-   **Intel·ligència artificial**
+
+    ---
+
+    Intel·ligència exhibida per màquines.
+
+-   **Màquina intel·ligent**
+
+    ---
+
+    Sistema que pot percebre el seu entorn i prendre accions que maximitzen les seves possibilitats d'èxit en un objectiu.
+
+</div>
 
 <figure>
   <video src="../img/bender.mp4" poster="../img/bender.jpg" width="360" autoplay loop muted playsinline></video>
