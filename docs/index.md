@@ -86,8 +86,64 @@ hide:
 
 ## Avaluació
 
-_pendent_
+Aquest bloc equival al **15 % de la nota final del mòdul de Projecte (M0379)** de 2n d'ASIX. Dins del bloc, la nota es reparteix així:
+
+| Projecte | Pes al bloc | Pes a la nota final del mòdul |
+|---|---|---|
+| P0 · Introducció a la IA | No avaluable | — |
+| P1 · Prompt engineering | No avaluable | — |
+| P2 · Agents amb OpenClaw | 20 % | 3 % |
+| P3 · LLMs locals | 20 % | 3 % |
+| P4 · BBDD vectorials | 20 % | 3 % |
+| P5 · Anàlisi de logs amb LLM | 20 % | 3 % |
+| P6 · ML al cloud (AzureML) | 20 % | 3 % |
+| **Total** | **100 %** | **15 %** |
+
+Els criteris i la rúbrica de cada projecte es detallen a la seva pàgina d'avaluació.
 
 ## Ús responsable de la IA
 
-_pendent_
+En aquest bloc la IA és alhora l'objecte d'estudi i una eina de treball. Per fer-ne un ús professional i honest, cal seguir aquests principis:
+
+<div class="grid cards" markdown>
+
+-   :material-check-decagram-outline:{ .lg .middle } **Verifica sempre**
+
+    ---
+
+    Els models s'equivoquen i s'inventen comandes, opcions o paràmetres (al·lucinacions). Contrasta les respostes amb la documentació oficial (`man`, documentació del fabricant) abans de fer-les servir.
+
+-   :material-console:{ .lg .middle } **Entén abans d'executar**
+
+    ---
+
+    No executis cap comanda ni script generat per una IA que no entenguis. Prova'l primer en un entorn de proves, mai directament en producció ni amb privilegis de `root`.
+
+-   :material-shield-lock-outline:{ .lg .middle } **Protegeix les dades**
+
+    ---
+
+    No enganxis mai a un model extern contrasenyes, claus API, certificats, configuracions internes ni dades personals (RGPD). Anonimitza logs i fitxers abans de compartir-los.
+
+-   :material-account-key-outline:{ .lg .middle } **Mínim privilegi**
+
+    ---
+
+    Els agents que executen accions al sistema han de tenir només els permisos imprescindibles, amb entorns aïllats i registre d'auditoria. Les claus API es guarden fora del codi i del repositori.
+
+-   :material-text-box-check-outline:{ .lg .middle } **Sigues transparent**
+
+    ---
+
+    Indica a les entregues quan i com has fet servir la IA (quin model i per a què). Presentar com a propi un treball generat per IA sense declarar-ho es considera còpia.
+
+-   :material-head-lightbulb-outline:{ .lg .middle } **Aprèn, no delegues**
+
+    ---
+
+    La IA t'ha d'ajudar a entendre i a treballar millor, no a substituir el teu raonament. Has de ser capaç d'explicar i defensar tot el que entreguis.
+
+</div>
+
+> [!WARNING]
+> L'ús de la IA en activitats i proves on no estigui permès, o sense declarar-lo quan sigui obligatori, es tractarà segons els criteris del departament d'Informàtica i pot suposar la qualificació negativa de l'activitat.
