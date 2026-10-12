@@ -4,6 +4,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap");
 
+/* ---------- Mida base: més petita que la de Material ---------- */
+html { font-size: 112.5%; }
+@media screen and (min-width: 100em) { html { font-size: 118.75%; } }
+@media screen and (min-width: 125em) { html { font-size: 125%; } }
+
 /* ---------- Colors (mode clar) ---------- */
 :root,
 [data-md-color-scheme="default"] {
@@ -133,22 +138,22 @@
 .md-content__inner::before { display: none; }
 
 /* ---------- Tipografia ---------- */
-.md-typeset { font-size: .82rem; line-height: 1.7; }
+.md-typeset { font-size: .76rem; line-height: 1.65; }
 .md-typeset h1, .md-typeset h2, .md-typeset h3 {
   font-family: "Space Grotesk", var(--md-text-font-family);
   color: var(--ia-ink);
   letter-spacing: -.01em;
 }
-.md-typeset h1 { font-weight: 700; font-size: 2rem; margin-bottom: .8rem; }
+.md-typeset h1 { font-weight: 700; font-size: 1.65rem; margin-bottom: .7rem; }
 .md-typeset h2 {
   font-weight: 600;
-  font-size: 1.35rem;
-  margin-top: 2.4rem;
+  font-size: 1.15rem;
+  margin-top: 2rem;
   padding-top: 1.2rem;
   border-top: 1px solid var(--ia-line);
 }
 .md-typeset h1 + h2, .md-typeset h1 + p + h2 { border-top: 0; padding-top: 0; }
-.md-typeset h3 { font-weight: 600; font-size: 1.05rem; color: var(--ia-teal); }
+.md-typeset h3 { font-weight: 600; font-size: .92rem; color: var(--ia-teal); }
 .md-typeset strong { color: var(--ia-ink); }
 
 /* Etiqueta superior per als projectes (p. ex. "Projecte 0") */
@@ -158,7 +163,7 @@
   color: var(--ia-teal); background: var(--ia-teal-soft);
   padding: .15rem .55rem; border-radius: 99px; margin-bottom: .4rem;
 }
-.md-typeset .lead { font-size: 1rem; color: var(--ia-muted); max-width: 42rem; }
+.md-typeset .lead { font-size: .88rem; color: var(--ia-muted); max-width: 42rem; }
 
 /* ---------- Llistes de definicions ---------- */
 .md-typeset dl > dt { font-weight: 600; color: var(--ia-teal); }
@@ -167,14 +172,14 @@
 /* ---------- Imatges i vídeos ---------- */
 .md-typeset img, .md-typeset video { border-radius: 12px; }
 .md-typeset figure img, .md-typeset figure video { box-shadow: var(--ia-shadow); }
-.md-typeset figcaption { color: var(--ia-muted); font-size: .72rem; max-width: none; }
+.md-typeset figcaption { color: var(--ia-muted); font-size: .68rem; max-width: none; }
 .md-typeset .grid > p > img { box-shadow: var(--ia-shadow); }
 .md-typeset .grid { align-items: center; }
 
 /* ---------- Taules ---------- */
 .md-typeset table:not([class]) {
   border: 1px solid var(--ia-line); border-radius: 12px; overflow: hidden;
-  box-shadow: none; font-size: .78rem;
+  box-shadow: none; font-size: .72rem;
 }
 .md-typeset table:not([class]) th {
   background: var(--ia-canvas); color: var(--ia-ink); font-weight: 600;
@@ -201,14 +206,14 @@
 .md-typeset .grid.cards > ul > li > hr { margin: .5rem 0; border-color: var(--ia-line); }
 .md-typeset .grid.cards .lg { color: var(--ia-teal); }
 .md-typeset .grid.cards p { color: var(--ia-muted); margin: .4rem 0; }
-.md-typeset .grid.cards strong { color: var(--ia-ink); font-family: "Space Grotesk", sans-serif; font-size: .9rem; }
+.md-typeset .grid.cards strong { color: var(--ia-ink); font-family: "Space Grotesk", sans-serif; font-size: .82rem; }
 
 /* Portada */
 .md-typeset .hero {
   background: linear-gradient(135deg, var(--ia-teal-soft), transparent 70%);
   border-radius: 14px; padding: 1.6rem 1.6rem 1.2rem; margin: -.4rem -.4rem 1.6rem;
 }
-.md-typeset .hero h1 { font-size: 2.3rem; margin: .2rem 0 .6rem; }
+.md-typeset .hero h1 { font-size: 1.9rem; margin: .2rem 0 .6rem; }
 .md-typeset .hero p { margin: .2rem 0; }
 
 /* Botons */
