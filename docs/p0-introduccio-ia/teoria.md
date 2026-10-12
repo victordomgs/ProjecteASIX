@@ -92,8 +92,6 @@ Són els grans models, enfocaments i filosofies de pensament sobre com crear sis
 
 Abasten des de la lògica formal basada en regles humanes fins a models autònoms d'aprenentatge massiu i sistemes orientats a l'acció.
 
-![Icona IA](img/ia-icona.png){ width="220" loading=lazy }
-
 </div>
 
 ### Paradigma simbòlic
@@ -103,8 +101,6 @@ Abasten des de la lògica formal basada en regles humanes fins a models autònom
 - S'escriuen regles de tipus **if-then** per emular el raonament humà.
 - Útil en medicina o dret per prendre decisions basades en dades estructurades.
 - **Limitació:** rigidesa davant del món real i dificultat per gestionar la indeterminació o el context complex.
-
-![Regla if-then](img/simbolic.png){ loading=lazy }
 
 </div>
 
@@ -116,8 +112,6 @@ Abasten des de la lògica formal basada en regles humanes fins a models autònom
 - El sistema millora amb l'experiència i l'ús massiu d'informació.
 - Base de la visió per computador, el reconeixement de veu i els models actuals.
 
-![Xarxa neuronal](img/connexionista.png){ loading=lazy }
-
 </div>
 
 ### Paradigma generatiu
@@ -126,8 +120,6 @@ Abasten des de la lògica formal basada en regles humanes fins a models autònom
 
 - Processen i combinen de manera simultània veu, imatges i text.
 - Generen respostes fluides i naturals a partir de models predictius de llenguatge.
-
-![Xarxes discriminatives vs. generatives](img/discriminatiu-vs-generatiu.jpg){ loading=lazy }
 
 </div>
 
@@ -138,12 +130,10 @@ Abasten des de la lògica formal basada en regles humanes fins a models autònom
 - L'agent defineix subtasques, utilitza eines i resol problemes de principi a fi.
 - Equips de diferents IA coordinades es reparteixen rols de treball sense intervenció humana constant.
 
-![Agent d'IA](img/agent-ia.jpg){ loading=lazy }
-
 </div>
 
-!!! tip "Connexió amb el curs"
-    El paradigma agèntic és la base del **Projecte 2** (orquestració d'agents amb OpenClaw), i el generatiu, dels projectes 3 a 5 (LLMs locals, bases de dades vectorials i anàlisi de logs).
+> [!TIP]
+> El paradigma agèntic és la base del **Projecte 2** (orquestració d'agents amb OpenClaw), i el generatiu, dels projectes 3 a 5 (LLMs locals, bases de dades vectorials i anàlisi de logs).
 
 ## Aplicacions de la IA
 
@@ -153,40 +143,22 @@ Abasten des de la lògica formal basada en regles humanes fins a models autònom
 
 ### Robòtica
 
-<div class="grid" markdown>
-
 - La robòtica és una de les aplicacions més conegudes de la IA.
 - Un robot és un sistema capaç d'interactuar amb el seu entorn.
 - Els robots poden ser **autònoms** o **teleoperats**.
 - *Camps d'aplicació:* indústria, sanitat, exploració espacial, militar, domèstic, etc.
 
-![Mà robòtica](img/robotica.jpg){ loading=lazy }
-
-</div>
-
 ### Processament del llenguatge natural
-
-<div class="grid" markdown>
 
 - Capacitat d'un ordinador per entendre el llenguatge humà.
 - Els humans utilitzem el llenguatge per comunicar-nos i per transmetre coneixement.
 - *Camps d'aplicació:* traducció automàtica, reconeixement de veu, resum de textos, chatbots, etc.
 
-![Processament del llenguatge natural](img/pln.jpg){ loading=lazy }
-
-</div>
-
 ### Visió per computador
-
-<div class="grid" markdown>
 
 - Capacitat d'un ordinador per entendre imatges.
 - Els humans utilitzem la visió per entendre el món que ens envolta: identificar objectes, persones, colors, etc.
 - *Camps d'aplicació:* reconeixement facial, reconeixement d'objectes, reconstrucció 3D, etc.
-
-![Visió per computador](img/visio.jpg){ loading=lazy }
-
-</div>
 
 ### Altres aplicacions
 
