@@ -6,9 +6,9 @@
 
 | | |
 |---|---|
-| **Hores** | _pendent_ |
-| **Resultats d'aprenentatge** | _pendent_ |
-| **Requisits previs** | Projecte 1 · Linux bàsic (terminal, npm, serveis) |
+| **Hores** | 9 |
+| **Resultats d'aprenentatge** |RA1, RA2, RA3, RA5, RA5 |
+| **Requisits previs** | Cap |
 
 ## Objectius
 
@@ -21,6 +21,6 @@
 
 | Fase | Contingut | Hores |
 |---|---|---|
-| 1 | [Orquestració d'agents amb OpenClaw](teoria.md) | |
-| 2 | [Activitats](activitats.md) | |
-| 3 | [Lliurables i avaluació](avaluacio.md) | |
+| 1 | [Orquestració d'agents amb OpenClaw](teoria.md) | 1 |
+| 2 | [Activitats](activitats.md) | 8 |
+| 3 | [Lliurables i avaluació](avaluacio.md) | - |
