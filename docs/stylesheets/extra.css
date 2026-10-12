@@ -245,3 +245,6 @@ html { font-size: 112.5%; }
 .md-typeset p > img:only-child { display: inline-block; }
 /* Dins de graelles de dues columnes, també centrades a la seva columna */
 .md-typeset .grid > p:has(> img) { display: flex; justify-content: center; }
+
+/* Blocs de text (prompts i respostes): salt de línia en comptes de barra horitzontal */
+.md-typeset div.highlight:not([class*="language-"]) pre > code { white-space: pre-wrap; word-break: break-word; }

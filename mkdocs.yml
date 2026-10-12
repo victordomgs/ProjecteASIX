@@ -72,12 +72,13 @@ nav:
       - Avaluació: p0-introduccio-ia/avaluacio.md
   - "P1 · Prompt engineering":
       - p1-prompt-engineering/index.md
-      - Teoria: p1-prompt-engineering/teoria.md
+      - Enginyeria de peticions: p1-prompt-engineering/teoria.md
+      - Estratègia de prompting: p1-prompt-engineering/estrategia.md
       - Activitats: p1-prompt-engineering/activitats.md
       - Avaluació: p1-prompt-engineering/avaluacio.md
   - "P2 · Agents amb OpenClaw":
       - p2-openclaw/index.md
-      - Teoria: p2-openclaw/teoria.md
+      - OpenClaw: p2-openclaw/teoria.md
       - Activitats: p2-openclaw/activitats.md
       - Avaluació: p2-openclaw/avaluacio.md
   - "P3 · LLMs locals":

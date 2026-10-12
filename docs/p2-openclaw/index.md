@@ -8,16 +8,19 @@
 |---|---|
 | **Hores** | _pendent_ |
 | **Resultats d'aprenentatge** | _pendent_ |
-| **Requisits previs** | _pendent_ |
+| **Requisits previs** | Projecte 1 · Linux bàsic (terminal, npm, serveis) |
 
 ## Objectius
 
-- _pendent_
+- Entendre què és un agent d'IA autoallotjat i per què és rellevant en sistemes.
+- Descriure l'arquitectura del Gateway d'OpenClaw i el flux d'un missatge.
+- Instal·lar i configurar OpenClaw en un sistema Ubuntu.
+- Executar el Gateway com a servei en segon pla.
 
 ## Fases
 
 | Fase | Contingut | Hores |
 |---|---|---|
-| 1 | [Teoria](teoria.md) | |
+| 1 | [Orquestració d'agents amb OpenClaw](teoria.md) | |
 | 2 | [Activitats](activitats.md) | |
 | 3 | [Lliurables i avaluació](avaluacio.md) | |
