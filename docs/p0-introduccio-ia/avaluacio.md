@@ -2,10 +2,8 @@
 
 ## Lliurables
 
-- _pendent_
+- 1 document PDF. 
 
 ## Rúbrica
 
-| Criteri | Excel·lent (4) | Bé (3) | Suficient (2) | Insuficient (1) | Pes |
-|---|---|---|---|---|---|
-| _pendent_ | | | | | |
+No s'avalua.
