@@ -110,7 +110,7 @@ Re-emphasize the key aspects of the prompt, especially the constraints, output f
 Si una instrucció no funciona com s'espera, és molt probable que hi hagi un problema en com s'ha redactat o definit. Aquesta llista ajuda a identificar possibles problemes i millorar-ne el rendiment.
 
 <figure>
-  <video src="../img/aireading.mp4" poster="../img/aireading.jpg" width="320" autoplay loop muted playsinline></video>
+  <video src="../img/aireading.mp4" poster="../img/aireading.jpg" width="240" autoplay loop muted playsinline></video>
 </figure>
 
 ### Problemes de redacció
