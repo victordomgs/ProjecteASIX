@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Hores** | 2 |
+| **Hores** | 3 |
 | **Resultats d'aprenentatge** | RA1, RA2, RA3, RA4, RA5 |
 | **Requisits previs** | Cap |
 
@@ -23,3 +23,4 @@
 |---|---|---|
 | 1 | [Fonaments de la IA i evolució](teoria.md) | 1 |
 | 2 | [Activitats](activitats.md) | 2 |
+| 2 | [Avaluació](avaluacio.md) | - |
