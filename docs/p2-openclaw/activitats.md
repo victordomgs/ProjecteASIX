@@ -34,4 +34,4 @@ En aquesta activitat hauràs de:
 
 [:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P2_Agent-Camp-OpenClaw-I_2026-27.docx){ .md-button .md-button--primary download }
 
-**Entrega:** en format PDF a través del [Moodle](https://frontal.ies-sabadell.cat/eva/course/view.php?id=73).
+**Entrega:** un document per grup amb tot el procés documentat (amb captures), en format PDF a través del [Moodle](https://frontal.ies-sabadell.cat/eva/course/view.php?id=73).
