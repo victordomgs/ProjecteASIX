@@ -25,3 +25,25 @@
 | 2 | [Estratègia de prompting](estrategia.md) | 1 |
 | 3 | [Activitats](activitats.md) | 4 |
 | 4 | [Lliurables i avaluació](avaluacio.md) | - |
+
+## Documentació
+
+<div class="grid cards" markdown>
+
+-   :material-book-open-variant:{ .lg .middle } **Google Cloud · Què és el prompt engineering**
+
+    ---
+
+    Introducció al concepte, tipus de prompts i bones pràctiques.
+
+    [:octicons-link-external-24: Obre l'enllaç](https://cloud.google.com/discover/what-is-prompt-engineering){ target="_blank" rel="noopener" }
+
+-   :material-notebook-outline:{ .lg .middle } **Colab · Introducció al disseny de prompts amb Gemini**
+
+    ---
+
+    Quadern pràctic de Google Cloud per provar tècniques de prompting pas a pas.
+
+    [:octicons-link-external-24: Obre l'enllaç](https://colab.research.google.com/github/GoogleCloudPlatform/generative-ai/blob/main/gemini/prompts/intro_prompt_design.ipynb?hl=es-419){ target="_blank" rel="noopener" }
+
+</div>
