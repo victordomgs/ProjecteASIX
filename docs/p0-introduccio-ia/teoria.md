@@ -47,7 +47,7 @@ Intentem modelar programes que s'aproximin al que definim com a intel·ligència
 
 La IA és part de la **ciència de la computació**.
 
-![Centre de processament de dades](img/cpd.jpeg){ loading=lazy }
+![Centre de processament de dades](img/cpd.jpeg){ width=400 loading=lazy }
 
 </div>
 
@@ -132,13 +132,13 @@ Abasten des de la lògica formal basada en regles humanes fins a models autònom
 
 </div>
 
-> [!TIP]
+> [!NOTE]
 > El paradigma agèntic és la base del **Projecte 2** (orquestració d'agents amb OpenClaw), i el generatiu, dels projectes 3 a 5 (LLMs locals, bases de dades vectorials i anàlisi de logs).
 
 ## Aplicacions de la IA
 
 <figure>
-  <video src="../img/aplicacions.mp4" poster="../img/aplicacions.jpg" width="420" autoplay loop muted playsinline></video>
+  <video src="../img/aplicacions.mp4" poster="../img/aplicacions.jpg" width="360" autoplay loop muted playsinline></video>
 </figure>
 
 ### Robòtica
