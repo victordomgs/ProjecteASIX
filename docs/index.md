@@ -146,4 +146,4 @@ En aquest bloc la IA és alhora l'objecte d'estudi i una eina de treball. Per fe
 </div>
 
 > [!WARNING]
-> L'ús de la IA en activitats i proves on no estigui permès, o sense declarar-lo quan sigui obligatori, es tractarà segons els criteris del departament d'Informàtica i pot suposar la qualificació negativa de l'activitat.
+> L'ús de la IA en activitats i proves on no estigui permès, o sense declarar-lo quan sigui obligatori, es tractarà segons els criteris de les NOFC i pot suposar la qualificació negativa de l'activitat.
