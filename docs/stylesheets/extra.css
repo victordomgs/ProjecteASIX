@@ -238,3 +238,10 @@ html { font-size: 112.5%; }
 }
 /* Taules sense capçalera (fitxes de projecte) */
 .md-typeset table:not([class]) thead:not(:has(th:not(:empty))) { display: none; }
+
+/* Imatges soles en un paràgraf: centrades */
+.md-typeset p:has(> img:only-child),
+.md-typeset p:has(> a:only-child > img:only-child) { text-align: center; }
+.md-typeset p > img:only-child { display: inline-block; }
+/* Dins de graelles de dues columnes, també centrades a la seva columna */
+.md-typeset .grid > p:has(> img) { display: flex; justify-content: center; }

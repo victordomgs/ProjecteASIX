@@ -43,6 +43,7 @@ extra_css:
 
 markdown_extensions:
   - admonition
+  - github-callouts
   - attr_list
   - def_list
   - md_in_html
