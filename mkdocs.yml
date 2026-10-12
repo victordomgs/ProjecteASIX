@@ -2,31 +2,43 @@ site_name: IA en sistemes · 2n ASIX
 site_description: Aplicació i desplegament d'IA en sistemes — M0379 Projecte
 site_author: "@victordomgs"
 repo_url: https://github.com/victordomgs/ProjecteASIX
+repo_name: victordomgs/ProjecteASIX
 site_url: https://victordomgs.github.io/ProjecteASIX/
-copyright: Contingut sota llicència CC BY-SA 4.0
+copyright: Institut Sabadell · Contingut sota llicència CC BY-SA 4.0
 
 theme:
   name: material
   language: ca
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/robot-outline
+    repo: fontawesome/brands/github
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: teal
+      primary: custom
+      accent: custom
       toggle: {icon: material/weather-night, name: Mode fosc}
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: teal
+      primary: custom
+      accent: custom
       toggle: {icon: material/weather-sunny, name: Mode clar}
   features:
     - navigation.tabs
-    - navigation.sections
-    - navigation.top
+    - navigation.tabs.sticky
     - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
     - search.highlight
     - content.code.copy
     - content.tabs.link
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
@@ -34,8 +46,14 @@ markdown_extensions:
   - def_list
   - md_in_html
   - tables
-  - toc: {permalink: true}
+  - toc: {permalink: true, title: En aquesta pàgina}
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight: {anchor_linenums: true}
   - pymdownx.inlinehilite
   - pymdownx.superfences:
@@ -48,37 +66,37 @@ markdown_extensions:
 
 nav:
   - Inici: index.md
-  - "Projecte 0. Introducció a la IA":
+  - "P0 · Introducció":
       - p0-introduccio-ia/index.md
       - Fonaments de la IA: p0-introduccio-ia/teoria.md
       - Activitats: p0-introduccio-ia/activitats.md
       - Avaluació: p0-introduccio-ia/avaluacio.md
-  - "Projecte 1. Prompt engineering orientat a ASIX":
+  - "P1 · Prompt engineering":
       - p1-prompt-engineering/index.md
       - Teoria: p1-prompt-engineering/teoria.md
       - Activitats: p1-prompt-engineering/activitats.md
       - Avaluació: p1-prompt-engineering/avaluacio.md
-  - "Projecte 2. Orquestració d'agents amb OpenClaw":
+  - "P2 · Agents":
       - p2-openclaw/index.md
       - Teoria: p2-openclaw/teoria.md
       - Activitats: p2-openclaw/activitats.md
       - Avaluació: p2-openclaw/avaluacio.md
-  - "Projecte 3. Desplegament i gestió de LLMs locals":
+  - "P3 · LLMs locals":
       - p3-llms-locals/index.md
       - Teoria: p3-llms-locals/teoria.md
       - Activitats: p3-llms-locals/activitats.md
       - Avaluació: p3-llms-locals/avaluacio.md
-  - "Projecte 4. Desplegament de BBDD vectorials (ChromaDB)":
+  - "P4 · ChromaDB":
       - p4-chromadb/index.md
       - Teoria: p4-chromadb/teoria.md
       - Activitats: p4-chromadb/activitats.md
       - Avaluació: p4-chromadb/avaluacio.md
-  - "Projecte 5. Automatització d'anàlisi de logs amb LLM":
+  - "P5 · Logs amb LLM":
       - p5-logs-llm/index.md
       - Teoria: p5-logs-llm/teoria.md
       - Activitats: p5-logs-llm/activitats.md
       - Avaluació: p5-logs-llm/avaluacio.md
-  - "Projecte 6. Desplegament de models ML al cloud (AzureML)":
+  - "P6 · AzureML":
       - p6-azureml/index.md
       - Teoria: p6-azureml/teoria.md
       - Activitats: p6-azureml/activitats.md
