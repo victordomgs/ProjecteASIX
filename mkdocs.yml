@@ -1,0 +1,89 @@
+site_name: IA en sistemes · 2n ASIX
+site_description: Aplicació i desplegament d'IA en sistemes — M0379 Projecte
+site_author: Víctor
+repo_url: https://github.com/USUARI/asix-ia-sistemes
+site_url: https://USUARI.github.io/asix-ia-sistemes/
+copyright: Contingut sota llicència CC BY-SA 4.0
+
+theme:
+  name: material
+  language: ca
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle: {icon: material/weather-night, name: Mode fosc}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle: {icon: material/weather-sunny, name: Mode clar}
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - tables
+  - toc: {permalink: true}
+  - pymdownx.details
+  - pymdownx.highlight: {anchor_linenums: true}
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed: {alternate_style: true}
+  - pymdownx.tasklist: {custom_checkbox: true}
+
+nav:
+  - Inici: index.md
+  - "Projecte 0. Introducció a la IA":
+      - p0-introduccio-ia/index.md
+      - Teoria: p0-introduccio-ia/teoria.md
+      - Activitats: p0-introduccio-ia/activitats.md
+      - Avaluació: p0-introduccio-ia/avaluacio.md
+  - "Projecte 1. Prompt engineering orientat a ASIX":
+      - p1-prompt-engineering/index.md
+      - Teoria: p1-prompt-engineering/teoria.md
+      - Activitats: p1-prompt-engineering/activitats.md
+      - Avaluació: p1-prompt-engineering/avaluacio.md
+  - "Projecte 2. Orquestració d'agents amb OpenClaw":
+      - p2-openclaw/index.md
+      - Teoria: p2-openclaw/teoria.md
+      - Activitats: p2-openclaw/activitats.md
+      - Avaluació: p2-openclaw/avaluacio.md
+  - "Projecte 3. Desplegament i gestió de LLMs locals":
+      - p3-llms-locals/index.md
+      - Teoria: p3-llms-locals/teoria.md
+      - Activitats: p3-llms-locals/activitats.md
+      - Avaluació: p3-llms-locals/avaluacio.md
+  - "Projecte 4. Desplegament de BBDD vectorials (ChromaDB)":
+      - p4-chromadb/index.md
+      - Teoria: p4-chromadb/teoria.md
+      - Activitats: p4-chromadb/activitats.md
+      - Avaluació: p4-chromadb/avaluacio.md
+  - "Projecte 5. Automatització d'anàlisi de logs amb LLM":
+      - p5-logs-llm/index.md
+      - Teoria: p5-logs-llm/teoria.md
+      - Activitats: p5-logs-llm/activitats.md
+      - Avaluació: p5-logs-llm/avaluacio.md
+  - "Projecte 6. Desplegament de models ML al cloud (AzureML)":
+      - p6-azureml/index.md
+      - Teoria: p6-azureml/teoria.md
+      - Activitats: p6-azureml/activitats.md
+      - Avaluació: p6-azureml/avaluacio.md
+  - Recursos:
+      - recursos/index.md
+      - Glossari: recursos/glossari.md
+      - Entorn: recursos/entorn.md
