@@ -7,7 +7,7 @@ El **prompt engineering** (o enginyeria d'instruccions) és la disciplina de dis
 Consisteix a formular aquestes entrades amb precisió, aportant el context, les pautes i els exemples necessaris perquè el model entengui la intenció de l'usuari i respongui de manera rellevant i útil.
 
 <figure>
-  <video src="../img/prompts.mp4" poster="../img/prompts.jpg" width="360" autoplay loop muted playsinline></video>
+  <video src="../img/prompts.mp4" poster="../img/prompts.jpg" width="320" autoplay loop muted playsinline></video>
 </figure>
 
 ## Components d'una instrucció
@@ -72,7 +72,7 @@ Now, if you'll excuse me, I must away! There's a ship on the horizon, and it loo
 
 Els **exemples breus o de referència (*few-shot*)** s'inclouen a la instrucció per mostrar al model com ha de ser una resposta correcta. Són especialment útils per definir-ne l'estil i el to, així com per ajustar el comportament general del model.
 
-![Exemples few-shot](img/few-shot.jpg){ width=420 loading=lazy }
+![Exemples few-shot](img/few-shot.jpg){ width=320 loading=lazy }
 
 ```text title="Prompt"
 Classify the following as red wine or white wine:
