@@ -6,9 +6,9 @@
 
 | | |
 |---|---|
-| **Hores** | _pendent_ |
-| **Resultats d'aprenentatge** | _pendent_ |
-| **Requisits previs** | Projecte 0 |
+| **Hores** | 6 |
+| **Resultats d'aprenentatge** | RA1, RA2, RA3, RA4, RA5 |
+| **Requisits previs** | Cap |
 
 ## Objectius
 
@@ -21,7 +21,7 @@
 
 | Fase | Contingut | Hores |
 |---|---|---|
-| 1 | [Introducció a l'enginyeria de peticions](teoria.md) | |
-| 2 | [Estratègia de prompting](estrategia.md) | |
-| 3 | [Activitats](activitats.md) | |
-| 4 | [Lliurables i avaluació](avaluacio.md) | |
+| 1 | [Introducció a l'enginyeria de peticions](teoria.md) | 1 |
+| 2 | [Estratègia de prompting](estrategia.md) | 1 |
+| 3 | [Activitats](activitats.md) | 4 |
+| 4 | [Lliurables i avaluació](avaluacio.md) | - |
