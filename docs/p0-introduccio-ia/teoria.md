@@ -47,7 +47,7 @@ Intentem modelar programes que s'aproximin al que definim com a intel·ligència
 
 La IA és part de la **ciència de la computació**.
 
-![Centre de processament de dades](img/cpd.jpeg){ width=400 loading=lazy }
+![Centre de processament de dades](img/cpd.jpeg){ width=320 loading=lazy }
 
 </div>
 
@@ -138,7 +138,7 @@ Abasten des de la lògica formal basada en regles humanes fins a models autònom
 ## Aplicacions de la IA
 
 <figure>
-  <video src="../img/aplicacions.mp4" poster="../img/aplicacions.jpg" width="360" autoplay loop muted playsinline></video>
+  <video src="../img/aplicacions.mp4" poster="../img/aplicacions.jpg" width="280" autoplay loop muted playsinline></video>
 </figure>
 
 ### Robòtica
