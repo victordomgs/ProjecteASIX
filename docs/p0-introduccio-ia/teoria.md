@@ -133,7 +133,7 @@ Abasten des de la lògica formal basada en regles humanes fins a models autònom
 </div>
 
 > [!NOTE]
-> El paradigma agèntic és la base del **Projecte 2** (orquestració d'agents amb OpenClaw), i el generatiu, dels projectes 3 a 5 (LLMs locals, bases de dades vectorials i anàlisi de logs).
+> El paradigma agèntic és la base del Projecte 2 (orquestració d'agents amb OpenClaw), i el generatiu, dels projectes 3 a 5 (LLMs locals, bases de dades vectorials i anàlisi de logs).
 
 ## Aplicacions de la IA
 
