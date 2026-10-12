@@ -1,11 +1,37 @@
 # Projecte 2. Activitats
 
-## Activitat 1
+## Activitat 1. Desplegament d'OpenClaw
 
-**Objectiu:** _pendent_
+**Objectiu:** desplegar OpenClaw en un servidor Ubuntu i posar en marxa un agent de sistema que executi comandes de diagnòstic de manera autònoma, aplicant el que s'explica a la [teoria](teoria.md).
 
-**Passos:**
+En aquesta activitat hauràs de:
 
-1. _pendent_
+1. Instal·lar i gestionar entorns d'execució de Node.js en Ubuntu Server.
+2. Configurar el servei (*daemon*) d'OpenClaw.
+3. Consumir un model LLM mitjançant una API REST.
+4. Desplegar i auditar la seguretat d'un agent de sistema capaç d'executar comandes CLI de diagnòstic de forma autònoma.
 
-**Lliurable:** _pendent_
+> [!NOTE]
+> Activitat en grup. L'escenari complet és a l'enunciat.
+
+[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P2_Desplegament-OpenClaw-I_2026-27.docx){ .md-button .md-button--primary download }
+
+**Entrega:** un document per grup amb tot el procés documentat (amb captures), en format PDF a través del [Moodle](https://frontal.ies-sabadell.cat/eva/course/view.php?id=73).
+
+## Activitat 2. Agent Camp
+
+**Objectiu:** entendre com el Gateway orquestra diversos agents i aplicar-hi el principi de mínim privilegi, vinculant un servei de missatgeria a un agent concret.
+
+| Tasca | Què es fa | Punts |
+|---|---|---|
+| 1 | Estructurar els agents, cadascun amb el seu *workspace* i sessions aïllades | 2,5 |
+| 2 | Configurar les eines i permisos: qui pot fer servir `exec` i amb quin *sandboxing* | 2,5 |
+| 3 | Vincular el servei de missatgeria i definir l'enrutament de canals (*channel-routing*) | 2,5 |
+| 4 | Verificar les restriccions, gestionar l'emparellament d'usuaris i revisar els registres d'auditoria del Gateway | 2,5 |
+
+> [!IMPORTANT]
+> Activitat avaluable. Durada: 2 hores a classe.
+
+[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P2_Agent-Camp-OpenClaw-I_2026-27.docx){ .md-button .md-button--primary download }
+
+**Entrega:** en format PDF a través del [Moodle](https://frontal.ies-sabadell.cat/eva/course/view.php?id=73).
