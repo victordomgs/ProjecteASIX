@@ -9,7 +9,8 @@ hide:
 
 # Aplicació i desplegament d'IA en sistemes
 
-<p class="lead">Bloc de 49 hores dedicat a les tecnologies d'intel·ligència artificial que avui ja formen part de la feina d'un administrador de sistemes: des d'escriure bons prompts fins a desplegar models en local i al núvol.</p>
+<p class="lead">Bloc de 49 hores que forma part del total de les 198 hores del mòdul professional M0370 Projecte d'ASIX. Aquesta part té com a objectiu desenvolupar les competències de l’alumnat en l’ús d’eines d’intel·ligència artificial i el desplegament de models d’IA mitjançant la combinació d’eines de processament de dades, virtualització de contenidors i creació de servidors, tot tenint en compte les necessitats reals i les oportunitats de negoci del sector productiu actual.
+</p>
 
 </div>
 
