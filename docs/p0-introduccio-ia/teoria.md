@@ -169,3 +169,14 @@ Abasten des de la lògica formal basada en regles humanes fins a models autònom
 | Medicina | Diagnòstic, cirurgia, medicina personalitzada… |
 | Enginyeria | Disseny, control de processos… |
 | Finances | Predicció de mercats, recomanació d'inversions… |
+
+## Per saber-ne més
+
+- [**Elements of AI**](https://www.elementsofai.com/es/){ target="_blank" rel="noopener" } · *Universitat de Hèlsinki*  
+  Curs en línia gratuït i sense programació sobre què és la IA, com aprèn i quin impacte té. Disponible en castellà.
+- [**Machine Learning Crash Course**](https://developers.google.com/machine-learning/crash-course){ target="_blank" rel="noopener" } · *Google*  
+  Introducció pràctica a l'aprenentatge automàtic amb vídeos, visualitzacions interactives i exercicis.
+- [**Neural networks**](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi){ target="_blank" rel="noopener" } · *3Blue1Brown*  
+  Sèrie de vídeos molt visual que explica com funcionen les xarxes neuronals, els transformers i els LLM.
+- [**Attention Is All You Need**](https://arxiv.org/abs/1706.03762){ target="_blank" rel="noopener" } · *Vaswani et al., 2017*  
+  Article original que presenta l'arquitectura Transformer, base dels models generatius actuals.

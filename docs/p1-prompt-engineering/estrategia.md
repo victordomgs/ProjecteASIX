@@ -148,3 +148,14 @@ Si una instrucció no funciona com s'espera, és molt probable que hi hagi un pr
 
 > [!TIP]
 > En administració de sistemes, aquesta llista és especialment útil quan demanes scripts o configuracions: especifica la distribució i versió, el format de sortida (Bash, YAML, JSON...) i com s'han de gestionar els errors.
+
+## Per saber-ne més
+
+- [**Prompt design strategies**](https://ai.google.dev/gemini-api/docs/prompting-strategies){ target="_blank" rel="noopener" } · *Google AI for Developers*  
+  Estratègies de disseny de prompts: instruccions clares, exemples, context i format de sortida.
+- [**Prompt engineering overview**](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview){ target="_blank" rel="noopener" } · *Anthropic*  
+  Guia de tècniques de prompting: rols, etiquetes XML, exemples i cadena de pensament.
+- [**Chain-of-Thought Prompting Elicits Reasoning in Large Language Models**](https://arxiv.org/abs/2201.11903){ target="_blank" rel="noopener" } · *Wei et al., 2022*  
+  Article que presenta la tècnica de la cadena de pensament (CoT).
+- [**LLM01:2025 Prompt Injection**](https://genai.owasp.org/llmrisk/llm01-prompt-injection/){ target="_blank" rel="noopener" } · *OWASP*  
+  Descripció de la injecció d'instruccions, exemples d'atac i mesures de mitigació.

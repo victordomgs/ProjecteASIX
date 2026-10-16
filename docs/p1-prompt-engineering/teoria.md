@@ -127,3 +127,12 @@ Aquests són alguns dels casos habituals en què el model sol rebutjar la petici
 - **Assetjament:** contingut amenaçador, intimidatori, abusiu o que fomenti l'assetjament dirigit a una persona.
 - **Contingut sexual explícit:** peticions que descriuen o demanen referències a actes sexuals o material obscè.
 - **Contingut perillós:** missatges que facilitin, incentivin o promoguin activitats nocives, així com l'accés a béns o serveis il·legals o perjudicials.
+
+## Per saber-ne més
+
+- [**Què és el prompt engineering**](https://cloud.google.com/discover/what-is-prompt-engineering){ target="_blank" rel="noopener" } · *Google Cloud*  
+  Introducció al concepte, tipus de prompts i bones pràctiques.
+- [**Introducció al disseny de prompts**](https://colab.research.google.com/github/GoogleCloudPlatform/generative-ai/blob/main/gemini/prompts/intro_prompt_design.ipynb?hl=es-419){ target="_blank" rel="noopener" } · *Google Cloud · Colab*  
+  Quadern pràctic per provar pas a pas les tècniques d'aquesta pàgina.
+- [**Guía de Ingeniería de Prompt**](https://www.promptingguide.ai/es){ target="_blank" rel="noopener" } · *DAIR.AI*  
+  Guia oberta i en castellà amb els conceptes bàsics, tècniques i exemples.

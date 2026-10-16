@@ -67,7 +67,7 @@ openclaw config set agents.defaults.timeoutSeconds 300
 
 ### 4. Fitxer de configuració principal
 
-És el fitxer central de la configuració d'OpenClaw. S'hi defineix:
+És el fitxer central de la configuració d'OpenClaw, `~/.openclaw/openclaw.json` (en format JSON5). S'hi defineix:
 
 - Proveïdors de models i claus API (`providers`).
 - Canals de missatgeria (`channels`).
@@ -86,3 +86,14 @@ openclaw daemon restart
 
 > [!NOTE]
 > Així l'assistent funciona contínuament sense dependre de tenir una finestra de terminal oberta, i es reinicia automàticament si cal.
+
+## Per saber-ne més
+
+- [**Getting started**](https://docs.openclaw.ai/start/getting-started){ target="_blank" rel="noopener" } · *Documentació d'OpenClaw*  
+  Guia ràpida oficial: instal·lació, configuració inicial i primer missatge a l'agent.
+- [**Gateway configuration**](https://docs.openclaw.ai/gateway/configuration){ target="_blank" rel="noopener" } · *Documentació d'OpenClaw*  
+  Referència completa del fitxer de configuració del Gateway.
+- [**Security**](https://docs.openclaw.ai/gateway/security){ target="_blank" rel="noopener" } · *Documentació d'OpenClaw*  
+  Model de confiança, valors per defecte i recomanacions per enfortir el Gateway.
+- [**LLM06:2025 Excessive Agency**](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/){ target="_blank" rel="noopener" } · *OWASP*  
+  Riscos de donar massa permisos o autonomia a un agent i com limitar-los.
