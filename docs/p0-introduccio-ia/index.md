@@ -17,7 +17,7 @@
 - Reconèixer els paradigmes de la IA: simbòlic, connexionista, generatiu i agèntic.
 - Identificar els principals camps d'aplicació de la IA.
 
-## Fases
+## Apartats
 
 | Fase | Contingut | Hores |
 |---|---|---|
