@@ -133,6 +133,7 @@ Quan enviem una petició a un LLM passen dues coses molt diferents:
 
 | Plataforma | Memòria | Ample de banda típic | Comentari |
 |---|---|---|---|
+| CPU servidor antic + DDR3 (3 canals, 1066–1333 MT/s) | RAM del sistema | ≈ 25–32 GB/s per sòcol | Servidors de cap al 2009-2012 |
 | CPU + DDR4 (doble canal, 3200 MT/s) | RAM del sistema | ≈ 50 GB/s | Molta memòria, poca velocitat |
 | CPU servidor + DDR4 (8 canals, 3200 MT/s) | RAM del sistema | ≈ 200 GB/s | Molt millor gràcies als canals |
 | CPU + DDR5 | RAM del sistema | ≈ 80–100 GB/s (escriptori) | Millora respecte DDR4 |
@@ -143,6 +144,7 @@ Quan enviem una petició a un LLM passen dues coses molt diferents:
 
 ```text
 Ample de banda (GB/s) = MT/s × 8 bytes × nombre de canals / 1000
+DDR3-1333, 3 canals:  1333 × 8 × 3 / 1000 = 32 GB/s
 DDR4-3200, 2 canals:  3200 × 8 × 2 / 1000 = 51,2 GB/s
 DDR4-3200, 8 canals:  3200 × 8 × 8 / 1000 = 204,8 GB/s
 ```
@@ -202,6 +204,7 @@ Tokens/s màxims (teòric) ≈ Ample de banda de memòria (GB/s) / Mida del mode
 
 | Escenari | Ample de banda | Model 8B Q4 (≈ 4,8 GB) | Model 32B Q4 (≈ 19 GB) |
 |---|---|---|---|
+| DDR3 3 canals (1 sòcol) | ≈ 30 GB/s | ≈ 6 tok/s (màx.) | ≈ 1,6 tok/s (màx.) |
 | DDR4 2 canals | ≈ 50 GB/s | ≈ 10 tok/s (màx.) | ≈ 2,6 tok/s (màx.) |
 | DDR4 8 canals | ≈ 200 GB/s | ≈ 40 tok/s (màx.) | ≈ 10 tok/s (màx.) |
 | GPU ≈ 1000 GB/s | ≈ 1000 GB/s | ≈ 200 tok/s (màx.) | ≈ 50 tok/s (màx.) |
