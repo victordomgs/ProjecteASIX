@@ -1,14 +1,6 @@
 # Fonaments dels LLMs locals
 
-<p class="lead">Per què executar models en infraestructura pròpia, quins models hi ha, quin maquinari necessiten i com s'adapten a aquest maquinari amb la quantització.</p>
-
-| | |
-|---|---|
-| **Durada** | ≈ 4 h (2 sessions de 2 h) |
-| **Entorn** | Clúster de servidors amb CPU i RAM DDR4 · servidor GPU (fase posterior) |
-| **Continguts** | [1. Per què local](#bloc-1-per-que-executar-un-llm-en-local) · [2. Models oberts](#bloc-2-lecosistema-de-models-oberts) · [3. Maquinari](#bloc-3-maquinari-i-dimensionament) · [4. Quantització](#bloc-4-quantitzacio-i-formats) |
-
-## Bloc 1 · Per què executar un LLM en local
+## Per què executar un LLM en local
 
 ### 1.1 Què vol dir "LLM local"
 
