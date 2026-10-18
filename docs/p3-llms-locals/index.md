@@ -12,12 +12,10 @@
 
 ## Objectius
 
-- Argumentar quan té sentit executar un LLM en local, al núvol o en un model híbrid.
 - Identificar models oberts, interpretar-ne la *model card* i la llicència.
 - Dimensionar el maquinari necessari per a un model (memòria, ample de banda, context i concurrència).
 - Triar el format i la quantització adequats per a un maquinari concret.
 - Desplegar un LLM local com a servei, consumir-lo per API i assegurar-lo.
-- Comparar el rendiment del servei en CPU i en GPU.
 
 ## Fases
 
