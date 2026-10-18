@@ -17,7 +17,7 @@
 - Redactar instruccions estructurades a partir d'una plantilla.
 - Detectar i corregir problemes de redacció, d'exemples i de disseny en una instrucció.
 
-## Fases
+## Apartats
 
 | Fase | Contingut | Hores |
 |---|---|---|
