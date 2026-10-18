@@ -48,20 +48,6 @@ El model és, físicament, **un fitxer** (o uns quants) amb milers de milions de
 !!! info "Model híbrid"
     En la pràctica, moltes organitzacions fan servir un **model híbrid**: models locals per a dades sensibles i tasques repetitives, i models al núvol per a tasques complexes amb dades no sensibles.
 
-### Casos d'ús en l'àmbit ASIX
-
-| Cas d'ús | Per què local | Connexió amb altres projectes |
-|---|---|---|
-| Anàlisi i resum de logs del sistema | Els logs contenen IPs, usuaris, rutes internes | **P5** |
-| Assistent sobre la documentació interna (procediments, inventari) | Documentació confidencial | **P4** (RAG amb ChromaDB) |
-| Generació i revisió de scripts (Bash, PowerShell, Ansible) | El codi pot contenir informació de la infraestructura | P1 |
-| Agent que executa tasques d'administració | Control total de què fa i amb quines dades | **P2** |
-| Classificació d'incidències o tiquets | Dades personals dels usuaris | — |
-| Xatbot intern per a usuaris del centre/empresa | Privadesa i cost | — |
-
-### ✏️ Activitat 1 (15 min)
-Per parelles: trieu dos casos d'ús d'una empresa fictícia i decidiu, de manera argumentada, si faríeu servir un LLM al núvol, local o híbrid. Cal citar almenys tres criteris de la taula 1.2.
-
 ---
 
 ## L'ecosistema de models oberts
@@ -127,10 +113,7 @@ La *model card* és la fitxa tècnica del model. Hi hem de buscar:
   - 1–4B: tasques simples, classificació, resums curts. Viables en CPU.
   - 7–14B: bon equilibri per a ús general. Viables en CPU amb paciència; còmodes en GPU.
   - 30B+: qualitat alta. Requereixen molta memòria; en CPU són lents.
-- **Finestra de context** (en tokens; 1 token ≈ ¾ de paraula en anglès, menys en català): és la "memòria de treball" del model en una petició. Inclou el *system prompt*, l'historial, el document que li passem i la resposta. **Més context = més memòria consumida** (ho veurem al bloc 3).
-
-### ✏️ Activitat 2 (20 min)
-Cada alumne tria un model a Hugging Face o a la biblioteca d'Ollama i completa una fitxa amb: família, fabricant, paràmetres, tipus, context màxim, llicència, idiomes i un cas d'ús ASIX on el faria servir.
+- **Finestra de context** (en tokens; 1 token ≈ ¾ de paraula en anglès, menys en català): és la "memòria de treball" del model en una petició. Inclou el *system prompt*, l'historial, el document que li passem i la resposta. **Més context = més memòria consumida** (ho veurem més endevant).
 
 ---
 
