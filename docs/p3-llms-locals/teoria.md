@@ -2,7 +2,7 @@
 
 ## Per què executar un LLM en local
 
-### 1.1 Què vol dir "LLM local"
+### Què vol dir "LLM local"
 
 Un LLM local és un model de llenguatge que s'executa **en infraestructures que controlem nosaltres** (un portàtil, un servidor del CPD, un clúster del centre) en lloc de consumir-lo com a servei d'un proveïdor extern (API de pagament o aplicació web).
 
@@ -16,7 +16,7 @@ El model és, físicament, **un fitxer** (o uns quants) amb milers de milions de
 !!! tip "Idea clau!"
     Un LLM local és **un servei més** del nostre sistema, igual que un servidor web o una base de dades. S'instal·la, es dimensiona, es monitora, s'assegura i s'actualitza.
 
-### 1.2 Cloud vs. local: comparativa
+### Cloud vs. local: comparativa
 
 | Criteri | LLM al núvol (API) | LLM local |
 |---|---|---|
@@ -29,7 +29,7 @@ El model és, físicament, **un fitxer** (o uns quants) amb milers de milions de
 | **Dependència de proveïdor** | Canvis de preu, de condicions o retirada de models | Els pesos són nostres; podem fixar una versió per sempre |
 | **Manteniment** | Nul | Tot és responsabilitat nostra |
 
-### 1.3 Quan té sentit (i quan no)
+### Quan té sentit (i quan no)
 
 **Té sentit quan:**
 
@@ -48,7 +48,7 @@ El model és, físicament, **un fitxer** (o uns quants) amb milers de milions de
 !!! info "Model híbrid"
     En la pràctica, moltes organitzacions fan servir un **model híbrid**: models locals per a dades sensibles i tasques repetitives, i models al núvol per a tasques complexes amb dades no sensibles.
 
-### 1.4 Casos d'ús en l'àmbit ASIX
+### Casos d'ús en l'àmbit ASIX
 
 | Cas d'ús | Per què local | Connexió amb altres projectes |
 |---|---|---|
@@ -64,9 +64,9 @@ Per parelles: trieu dos casos d'ús d'una empresa fictícia i decidiu, de manera
 
 ---
 
-## Bloc 2 · L'ecosistema de models oberts
+## L'ecosistema de models oberts
 
-### 2.1 "Open weights" no és el mateix que "codi obert"
+### "Open weights" no és el mateix que "codi obert"
 
 | Terme | Què es publica | Exemple de situació |
 |---|---|---|
@@ -76,7 +76,7 @@ Per parelles: trieu dos casos d'ús d'una empresa fictícia i decidiu, de manera
 
 La majoria de models que farem servir són **open weights**: podem executar-los, però no sabem exactament amb quines dades s'han entrenat.
 
-### 2.2 Llicències: llegir abans d'utilitzar
+### Llicències: llegir abans d'utilitzar
 
 Cada model té la seva llicència, i **no totes permeten el mateix**. Tipus habituals:
 
@@ -87,7 +87,7 @@ Cada model té la seva llicència, i **no totes permeten el mateix**. Tipus habi
 !!! warning "Llicències"
     Com a administradors, abans de posar un model en producció cal **comprovar la llicència a la seva model card**. Les condicions poden canviar entre versions d'una mateixa família.
 
-### 2.3 On trobar models
+### On trobar models
 
 - **Hugging Face** (huggingface.co): el gran repositori de models, conjunts de dades i demostracions. Hi ha els models originals i milers de variants (quantitzades, ajustades…).
 - **Biblioteca d'Ollama** (ollama.com/library): models ja preparats per descarregar amb una sola comanda.
@@ -98,7 +98,7 @@ Cada model té la seva llicència, i **no totes permeten el mateix**. Tipus habi
 !!! danger "Procedència dels models"
     Descarregueu models només dels comptes oficials dels fabricants o de quantitzadors amb bona reputació. Un model és un fitxer binari que carregarem als nostres servidors; cal aplicar-hi el mateix criteri que amb qualsevol programari.
 
-### 2.4 Com llegir una *model card*
+### Com llegir una *model card*
 
 La *model card* és la fitxa tècnica del model. Hi hem de buscar:
 
@@ -112,7 +112,7 @@ La *model card* és la fitxa tècnica del model. Hi hem de buscar:
 | Plantilla de xat | Format exacte de les converses | El motor l'ha d'aplicar bé |
 | Limitacions i biaixos | Riscos coneguts | Ús responsable |
 
-### 2.5 Tipus de models
+### Tipus de models
 
 - **Base**: entrenat només a predir el següent token. Completa text, però no segueix bé instruccions.
 - **Instruct / Chat**: model base ajustat per seguir instruccions i mantenir converses. **És el que farem servir habitualment.**
@@ -121,7 +121,7 @@ La *model card* és la fitxa tècnica del model. Hi hem de buscar:
 - **Models multimodals**: accepten imatges a més de text (p. ex. interpretar una captura d'una pantalla d'error).
 - **Models de raonament**: generen una cadena de "pensament" abans de respondre. Més precisos en problemes complexos, però molt més lents (generen molts més tokens). A tenir en compte en CPU!
 
-### 2.6 Paràmetres i context: què impliquen
+### Paràmetres i context: què impliquen
 
 - **Paràmetres** (B = milers de milions): més paràmetres → més capacitat de "coneixement" i raonament, però més memòria i més lentitud.
   - 1–4B: tasques simples, classificació, resums curts. Viables en CPU.
@@ -134,11 +134,11 @@ Cada alumne tria un model a Hugging Face o a la biblioteca d'Ollama i completa u
 
 ---
 
-## Bloc 3 · Maquinari i dimensionament
+## Maquinari i dimensionament
 
 Aquest és el bloc central per a un tècnic de sistemes: **quin model hi cap al meu maquinari i a quina velocitat funcionarà?**
 
-### 3.1 Les dues fases de la inferència
+### Les dues fases de la inferència
 
 Quan enviem una petició a un LLM passen dues coses molt diferents:
 
@@ -148,7 +148,7 @@ Quan enviem una petició a un LLM passen dues coses molt diferents:
 !!! tip "Conseqüència important"
     Per generar text, **el factor més determinant no és la potència de la CPU, sinó la velocitat de la memòria**.
 
-### 3.2 On s'executa la inferència
+### On s'executa la inferència
 
 | Plataforma | Memòria | Ample de banda típic | Comentari |
 |---|---|---|---|
@@ -169,7 +169,7 @@ DDR4-3200, 8 canals:  3200 × 8 × 8 / 1000 = 204,8 GB/s
 !!! note
     El valor real sempre és inferior al teòric (habitualment un 60–80 %).
 
-### 3.3 Quanta memòria necessita un model
+### Quanta memòria necessita un model
 
 La memòria total ≈ **pesos del model + KV cache + sobrecost del motor**.
 
@@ -211,7 +211,7 @@ Context de 32.768 tokens → ≈ 4 GB
 
 Reserveu un **10–20 % addicional** per al motor, buffers i sistema operatiu.
 
-### 3.4 Quina velocitat podem esperar
+### Quina velocitat podem esperar
 
 Durant la generació, cada token requereix llegir tots els pesos. Per tant:
 
@@ -232,7 +232,7 @@ Són **límits superiors teòrics**; a la pràctica s'obté menys. Referència d
 - **Nombre de fils**: més nuclis ajuden al *prefill*, però la generació se satura aviat per l'ample de banda. Més fils no sempre és més ràpid.
 - **NUMA**: en servidors amb diversos sòcols, que el model estigui a la memòria d'un sòcol i el càlcul a un altre penalitza.
 
-### 3.5 Mètriques de rendiment
+### Mètriques de rendiment
 
 | Mètrica | Què mesura | Fase que la determina |
 |---|---|---|
@@ -241,7 +241,7 @@ Són **límits superiors teòrics**; a la pràctica s'obté menys. Referència d
 | **Tokens/s de processament del prompt** | Velocitat llegint l'entrada | *Prefill* (càlcul) |
 | **Concurrència / *throughput*** | Tokens/s totals servint diversos usuaris | Motor + memòria |
 
-### 3.6 Inventari del nostre maquinari
+### Inventari del nostre maquinari
 
 Comandes útils per caracteritzar un node del clúster:
 
@@ -267,9 +267,9 @@ nvidia-smi                              # (fase GPU) model de GPU, VRAM, ús
 
 ---
 
-## Bloc 4 · Quantització i formats
+## Quantització i formats
 
-### 4.1 Què és quantitzar
+### Què és quantitzar
 
 Els models s'entrenen normalment amb pesos de **16 bits** (FP16 o BF16). **Quantitzar** és representar aquests pesos amb **menys bits** (8, 6, 5, 4, 3…), de manera semblant a com es comprimeix una imatge amb pèrdua.
 
@@ -286,7 +286,7 @@ Els models s'entrenen normalment amb pesos de **16 bits** (FP16 o BF16). **Quant
 - Un **model gran quantitzat a 4 bits** sol ser millor que un **model petit a 16 bits** amb la mateixa memòria.
 - Els **models petits** (1–3B) pateixen més la quantització agressiva que els grans.
 
-### 4.2 Formats de fitxer
+### Formats de fitxer
 
 | Format | Ús principal | Motors | Notes |
 |---|---|---|---|
@@ -296,7 +296,7 @@ Els models s'entrenen normalment amb pesos de **16 bits** (FP16 o BF16). **Quant
 
 Un fitxer **GGUF** conté els pesos quantitzats i també les metadades: arquitectura, plantilla de xat, vocabulari… Per això és tan pràctic: un sol fitxer i a funcionar.
 
-### 4.3 Interpretar els noms dels fitxers GGUF
+### Interpretar els noms dels fitxers GGUF
 
 Exemple de nom de fitxer: `NomModel-8B-Instruct-Q4_K_M.gguf`
 
@@ -324,7 +324,7 @@ També trobareu les quantitzacions **IQ** (p. ex. `IQ4_XS`), que fan servir tèc
 
 A **Ollama**, la quantització apareix a l'etiqueta del model, per exemple `model:8b-instruct-q4_K_M`. Si no se n'especifica cap, Ollama acostuma a descarregar una variant a 4 bits.
 
-### 4.4 Com triar la quantització: procediment
+### Com triar la quantització: procediment
 
 1. Calculeu la **memòria disponible** per al model (memòria total − SO − altres serveis − KV cache necessària).
 2. Trieu el **model més gran** que hi càpiga en **Q4_K_M**.
@@ -342,12 +342,5 @@ Teniu un node amb 32 GB de RAM DDR4 de doble canal i n'heu de reservar 6 GB per 
 
 ---
 
-## Conceptes clau (resum)
+## Per saber-ne més
 
-- Un LLM local és **un servei més** de la infraestructura: s'instal·la, es dimensiona i s'assegura.
-- **Open weights ≠ codi obert**, i cada model té la seva **llicència**.
-- Per a xat necessitem models **instruct**; per a RAG (P4), models d'**embeddings**.
-- La generació està limitada per l'**ample de banda de memòria**: `tok/s ≈ GB/s ÷ GB del model`.
-- Memòria necessària = **pesos + KV cache + sobrecost**. El context i la concurrència consumeixen memòria.
-- **Q4_K_M** és el punt de partida; un model gran quantitzat sol superar un model petit sense quantitzar.
-- Els càlculs són estimacions: **sempre cal validar mesurant**.
