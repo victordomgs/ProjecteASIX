@@ -119,8 +119,6 @@ La *model card* és la fitxa tècnica del model. Hi hem de buscar:
 
 ## Maquinari i dimensionament
 
-Aquest és el bloc central per a un tècnic de sistemes: **quin model hi cap al meu maquinari i a quina velocitat funcionarà?**
-
 ### Les dues fases de la inferència
 
 Quan enviem una petició a un LLM passen dues coses molt diferents:
