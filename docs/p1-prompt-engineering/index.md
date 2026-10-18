@@ -24,7 +24,7 @@
 | 1 | [Introducció a l'enginyeria de peticions](teoria.md) | 1 |
 | 2 | [Estratègia de prompting](estrategia.md) | 1 |
 | 3 | [Activitats](activitats.md) | 4 |
-| 4 | [Lliurables i avaluació](avaluacio.md) | - |
+| 4 | [Avaluació](avaluacio.md) | - |
 
 ## Documentació
 
