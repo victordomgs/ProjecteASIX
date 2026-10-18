@@ -209,6 +209,7 @@ Tokens/s màxims (teòric) ≈ Ample de banda de memòria (GB/s) / Mida del mode
 Són **límits superiors teòrics**; a la pràctica s'obté menys. Referència d'usabilitat: una persona llegeix a uns **5–10 tokens/s**, de manera que per a un xat interactiu cal superar aquest llindar.
 
 **Altres factors en CPU:**
+
 - **Instruccions vectorials** (AVX2, AVX-512): llama.cpp les aprofita i milloren molt el rendiment del *prefill*.
 - **Nombre de fils**: més nuclis ajuden al *prefill*, però la generació se satura aviat per l'ample de banda. Més fils no sempre és més ràpid.
 - **NUMA**: en servidors amb diversos sòcols, que el model estigui a la memòria d'un sòcol i el càlcul a un altre penalitza.
@@ -235,13 +236,6 @@ sudo dmidecode -t memory | grep -E 'Size|Speed|Locator' | grep -v 'No Module'
 numactl --hardware                      # topologia NUMA (si està instal·lat)
 nvidia-smi                              # (fase GPU) model de GPU, VRAM, ús
 ```
-
-### ✏️ Activitat 3 (30 min) · Dimensionament del clúster
-1. Feu l'inventari d'un node del clúster amb les comandes anteriors.
-2. Calculeu l'ample de banda teòric de la seva memòria.
-3. Determineu **el model més gran (en Q4_K_M) que hi cap** deixant 4 GB per al sistema i un context de 8K tokens.
-4. Estimeu els tokens/s màxims per a un model 3B, 8B i 14B en Q4.
-5. Concloeu: quin model recomanaríeu per a un xat interactiu de 5 usuaris simultanis en aquest node? I per a un procés nocturn d'anàlisi de logs (on la velocitat importa menys)?
 
 !!! note
     Guardeu aquests càlculs: a la Pràctica I els contrastareu amb els valors reals mesurats, i a la Pràctica IV amb el servidor GPU.
