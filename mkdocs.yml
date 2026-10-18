@@ -83,7 +83,7 @@ nav:
       - Avaluació: p2-openclaw/avaluacio.md
   - "P3 · LLMs locals":
       - p3-llms-locals/index.md
-      - Teoria: p3-llms-locals/teoria.md
+      - Fonaments dels LLMs: p3-llms-locals/teoria.md
       - Activitats: p3-llms-locals/activitats.md
       - Avaluació: p3-llms-locals/avaluacio.md
   - "P4 · BBDD vectorials":
