@@ -4,7 +4,7 @@
 
 ### 1.1 Què vol dir "LLM local"
 
-Un LLM local és un model de llenguatge que s'executa **en infraestructura que controlem nosaltres** (un portàtil, un servidor del CPD, un clúster del centre) en lloc de consumir-lo com a servei d'un proveïdor extern (API de pagament o aplicació web).
+Un LLM local és un model de llenguatge que s'executa **en infraestructures que controlem nosaltres** (un portàtil, un servidor del CPD, un clúster del centre) en lloc de consumir-lo com a servei d'un proveïdor extern (API de pagament o aplicació web).
 
 El model és, físicament, **un fitxer** (o uns quants) amb milers de milions de paràmetres (pesos). Per fer-lo servir necessitem:
 
@@ -13,7 +13,7 @@ El model és, físicament, **un fitxer** (o uns quants) amb milers de milions de
 3. **Maquinari** amb prou memòria i ample de banda per moure aquests pesos.
 4. Opcionalment, **una interfície** (API, web, CLI) perquè usuaris o aplicacions hi accedeixin.
 
-!!! tip "Idea clau per a ASIX"
+!!! tip "Idea clau!"
     Un LLM local és **un servei més** del nostre sistema, igual que un servidor web o una base de dades. S'instal·la, es dimensiona, es monitora, s'assegura i s'actualitza.
 
 ### 1.2 Cloud vs. local: comparativa
@@ -32,6 +32,7 @@ El model és, físicament, **un fitxer** (o uns quants) amb milers de milions de
 ### 1.3 Quan té sentit (i quan no)
 
 **Té sentit quan:**
+
 - Treballem amb **dades sensibles**: logs interns, dades d'alumnat o de clients, configuracions de xarxa, credencials que podrien aparèixer en un fitxer.
 - Hi ha un **volum alt i continu** de peticions (p. ex. analitzar tots els logs cada nit).
 - Necessitem **funcionar en entorns aïllats** (xarxes industrials, CPD sense sortida a Internet).
@@ -39,6 +40,7 @@ El model és, físicament, **un fitxer** (o uns quants) amb milers de milions de
 - Volem **aprendre** com funciona la infraestructura (el nostre cas!).
 
 **No té sentit quan:**
+
 - Necessitem la màxima qualitat de raonament possible i no hi ha dades sensibles.
 - El volum d'ús és molt baix i esporàdic (el maquinari estaria aturat).
 - No disposem de maquinari adequat ni de personal per mantenir-lo.
