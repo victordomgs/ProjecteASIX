@@ -21,8 +21,7 @@
 
 | Fase | Contingut | Hores | Infraestructura |
 |---|---|---|---|
-| 1 | [Teoria: fonaments dels LLMs locals](teoria.md) (blocs 1–2) | 2 | — |
-| 2 | [Teoria: maquinari, dimensionament i quantització](teoria.md#bloc-3-maquinari-i-dimensionament) (blocs 3–4) | 2 | Inventari del clúster |
+| 1 | [Fonaments dels LLMs](teoria.md) (blocs 1–2) | 2 | — |
 | 3 | [Pràctica I: motors d'inferència i paràmetres](activitats.md) | 3 | Clúster CPU |
 | 4 | [Pràctica II: API compatible OpenAI i integració](activitats.md) | 3 | Clúster CPU |
 | 5 | [Pràctica III: desplegament com a servei i seguretat](activitats.md) | 3 | Clúster CPU |
