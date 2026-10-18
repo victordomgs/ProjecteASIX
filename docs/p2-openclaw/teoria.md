@@ -18,7 +18,11 @@ Tot flueix a través d'un únic dimoni anomenat **Gateway**. Es manté en execuc
 4. El model respon amb instruccions que *Pi* executa localment.
 5. Els resultats de l'execució tornen a través del Gateway cap al nostre xat.
 
-![Arquitectura del Gateway d'OpenClaw](img/gateway.jpg){ loading=lazy }
+```mermaid
+flowchart LR
+    A[1. Preparar<br/>el sistema] --> B[2. Node.js 24] --> C[3. OpenClaw CLI] --> D[4. Assistent<br/>inicial]
+    D --> E[5. Ajustos] --> F[6. Connexió<br/>amb el model] --> G[7. Gateway<br/>daemon] --> H[8. Crear<br/>l'agent] --> I[9. Provar<br/>l'agent]
+```
 
 ### Funcions del Gateway
 
