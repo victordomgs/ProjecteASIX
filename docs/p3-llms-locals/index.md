@@ -6,9 +6,9 @@
 
 | | |
 |---|---|
-| **Hores** | _pendent_ |
-| **Resultats d'aprenentatge** | _pendent_ |
-| **Requisits previs** | _pendent_ |
+| **Hores** | 18 |
+| **Resultats d'aprenentatge** | RA1, RA2, RA3, RA5, RA5 |
+| **Requisits previs** | Cap |
 
 ## Objectius
 
