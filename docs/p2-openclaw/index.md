@@ -17,7 +17,7 @@
 - Instal·lar i configurar OpenClaw en un sistema Ubuntu.
 - Executar el Gateway com a servei en segon pla.
 
-## Fases
+## Apartats
 
 | Fase | Contingut | Hores |
 |---|---|---|
