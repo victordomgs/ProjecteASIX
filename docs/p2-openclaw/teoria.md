@@ -258,7 +258,7 @@ mkdir -p ~/.openclaw/workspace-sysadmin
 
 #### 8.3. Personalitat i *prompt* del sistema
 
-El fitxer `SOUL.md` defineix la personalitat de l'agent: és el seu ***prompt* del sistema**. Hi apliquem les tècniques vistes a [Estratègia de prompting](05-estrategia-prompting.md): rol, instruccions i format de sortida.
+El fitxer `SOUL.md` defineix la personalitat de l'agent: és el seu ***prompt* del sistema**. Hi apliquem les tècniques vistes a [Estratègia de prompting](../p1-prompt-engineering/estrategia.md): rol, instruccions i format de sortida.
 
 ```bash
 cat << 'EOF' > ~/.openclaw/workspace-sysadmin/SOUL.md
