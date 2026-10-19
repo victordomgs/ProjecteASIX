@@ -237,7 +237,7 @@ nvidia-smi                              # (fase GPU) model de GPU, VRAM, ús
 ```
 
 !!! note
-    Guardeu aquests càlculs: a la Pràctica I els contrastareu amb els valors reals mesurats, i a la Pràctica IV amb el servidor GPU.
+    Nosaltres tenim accés a la interfície gràfica de Proxmox i molts d'aquests valors es poden trobar allà.
 
 ## Quantització i formats
 
