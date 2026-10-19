@@ -251,6 +251,7 @@ Els models s'entrenen normalment amb pesos de **16 bits** (FP16 o BF16). **Quant
 | Més bits | Més fidelitat al model original | Més memòria i més lent |
 
 **Regles pràctiques:**
+
 - **8 bits**: pèrdua de qualitat pràcticament inapreciable.
 - **5–6 bits**: pèrdua molt petita. Bon compromís si hi ha memòria.
 - **4 bits (Q4_K_M)**: el **punt dolç** més utilitzat. Pèrdua petita i gran estalvi.
