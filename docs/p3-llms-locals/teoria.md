@@ -48,8 +48,6 @@ El model és, físicament, **un fitxer** (o uns quants) amb milers de milions de
 !!! info "Model híbrid"
     En la pràctica, moltes organitzacions fan servir un **model híbrid**: models locals per a dades sensibles i tasques repetitives, i models al núvol per a tasques complexes amb dades no sensibles.
 
----
-
 ## L'ecosistema de models oberts
 
 ### "Open weights" no és el mateix que "codi obert"
@@ -114,8 +112,6 @@ La *model card* és la fitxa tècnica del model. Hi hem de buscar:
   - 7–14B: bon equilibri per a ús general. Viables en CPU amb paciència; còmodes en GPU.
   - 30B+: qualitat alta. Requereixen molta memòria; en CPU són lents.
 - **Finestra de context** (en tokens; 1 token ≈ ¾ de paraula en anglès, menys en català): és la "memòria de treball" del model en una petició. Inclou el *system prompt*, l'historial, el document que li passem i la resposta. **Més context = més memòria consumida** (ho veurem més endevant).
-
----
 
 ## Maquinari i dimensionament
 
@@ -243,8 +239,6 @@ nvidia-smi                              # (fase GPU) model de GPU, VRAM, ús
 !!! note
     Guardeu aquests càlculs: a la Pràctica I els contrastareu amb els valors reals mesurats, i a la Pràctica IV amb el servidor GPU.
 
----
-
 ## Quantització i formats
 
 ### Què és quantitzar
@@ -309,16 +303,6 @@ A **Ollama**, la quantització apareix a l'etiqueta del model, per exemple `mode
 3. Si sobra memòria, pugeu a **Q5_K_M / Q6_K** abans que a un model més gran a Q3.
 4. Comproveu que la **velocitat estimada** (bloc 3.4) sigui suficient per al cas d'ús.
 5. **Valideu amb proves reals**: el càlcul és una estimació; la decisió final es pren mesurant (es treballa a les activitats finals del projecte).
-
-### ✏️ Activitat 4 (20 min)
-Teniu un node amb 32 GB de RAM DDR4 de doble canal i n'heu de reservar 6 GB per al sistema i un context de 8K. Justifiqueu quina d'aquestes opcions triaríeu per a un assistent intern de documentació, i per què:
-
-- a) Model 32B en Q3_K_M
-- b) Model 14B en Q4_K_M
-- c) Model 8B en Q8_0
-- d) Model 8B en F16
-
----
 
 ## Per saber-ne més
 
