@@ -307,3 +307,15 @@ A **Ollama**, la quantització apareix a l'etiqueta del model, per exemple `mode
 
 ## Per saber-ne més
 
+- [**The Open Source AI Definition**](https://opensource.org/ai/open-source-ai-definition){ target="_blank" rel="noopener" } · *Open Source Initiative*  
+  Definició oficial de què ha de complir un model per considerar-se de codi obert, més enllà de publicar els pesos.
+- [**Model Cards**](https://huggingface.co/docs/hub/model-cards){ target="_blank" rel="noopener" } · *Hugging Face*  
+  Què conté una model card i com s'hi indiquen la llicència, el model base, els idiomes i les limitacions.
+- [**LLM Inference Performance Engineering: Best Practices**](https://www.databricks.com/blog/llm-inference-performance-engineering-best-practices){ target="_blank" rel="noopener" } · *Databricks*  
+  Fases de prefill i decode, mètriques com el TTFT i per què l'ample de banda de memòria limita la generació.
+- [**A Visual Guide to Quantization**](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization){ target="_blank" rel="noopener" } · *Maarten Grootendorst*  
+  Explicació molt visual de la quantització: tipus de dades, mètodes i compromís entre mida i qualitat.
+- [**GGUF**](https://huggingface.co/docs/hub/gguf){ target="_blank" rel="noopener" } · *Hugging Face*  
+  Descripció del format GGUF i taula amb tots els tipus de quantització (Q4_K_M, Q8_0, IQ…).
+- [**llama.cpp**](https://github.com/ggml-org/llama.cpp){ target="_blank" rel="noopener" } · *GitHub · ggml-org*  
+  Repositori del motor d'inferència en C/C++ que fan servir Ollama i LM Studio, amb instruccions de compilació i eines com llama-bench.
