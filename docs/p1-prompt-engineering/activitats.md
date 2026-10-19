@@ -15,6 +15,6 @@ Treballaràs amb dos models: un que requereixi registre (model A) i un que no (m
 > [!IMPORTANT]
 > Al final de la Part 1 i de la Part 2 hi ha un *checkpoint*: avisa el professor abans de continuar.
 
-[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P1_Practica-de-prompting-I_2026-27.docx){ .md-button .md-button--primary download }
+[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P1_Practica-de-prompting-I_2026-27.docx){ .md-button .md-button--primary download="P1_Practica-de-prompting-I_2026-27.docx" }
 
 **Entrega:** s'ha de lliurar en format PDF a través del [Moodle](https://frontal.ies-sabadell.cat/eva/course/view.php?id=73).

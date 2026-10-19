@@ -14,7 +14,7 @@ En aquesta activitat hauràs de:
 > [!NOTE]
 > Per fer la configuració s'ha de consultar el següent [Gemini Notebook](https://notebook.google.com/notebook/29c26043-21f0-499b-99cb-0f0c88d9ca68?utm_source=gemini_notebook&utm_medium=referral&original_referer=https:%2F%2Fgemini.google.com%23&pli=1). 
 
-[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P2_Desplegament-OpenClaw-I_2026-27.docx){ .md-button .md-button--primary download }
+[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P2_Desplegament-OpenClaw-I_2026-27.docx){ .md-button .md-button--primary download="P2_Desplegament-OpenClaw-I_2026-27.docx" }
 
 **Entrega:** un document per grup amb tot el procés documentat (amb captures), en format PDF a través del [Moodle](https://frontal.ies-sabadell.cat/eva/course/view.php?id=73).
 
@@ -32,6 +32,6 @@ En aquesta activitat hauràs de:
 > [!NOTE]
 > Per fer el desplegament s'ha de consultar el següent [Gemini Notebook](https://notebook.google.com/notebook/29c26043-21f0-499b-99cb-0f0c88d9ca68?utm_source=gemini_notebook&utm_medium=referral&original_referer=https:%2F%2Fgemini.google.com%23&pli=1). .
 
-[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P2_Agent-Camp-OpenClaw-I_2026-27.docx){ .md-button .md-button--primary download }
+[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P2_Agent-Camp-OpenClaw-I_2026-27.docx){ .md-button .md-button--primary download="P2_Agent-Camp-OpenClaw-I_2026-27.docx" }
 
 **Entrega:** un document per grup amb tot el procés documentat (amb captures), en format PDF a través del [Moodle](https://frontal.ies-sabadell.cat/eva/course/view.php?id=73).
