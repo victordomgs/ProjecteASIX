@@ -84,6 +84,7 @@ nav:
   - "P3 · LLMs locals":
       - p3-llms-locals/index.md
       - Fonaments dels LLMs: p3-llms-locals/teoria.md
+      - Desplegament de LLMs: p3-llms-locals/desplegament.md
       - Activitats: p3-llms-locals/activitats.md
       - Avaluació: p3-llms-locals/avaluacio.md
   - "P4 · BBDD vectorials":
