@@ -1,4 +1,4 @@
-# Desplegament de LLMs
+# Desplegament de LLMs (GPU)
 
 <p class="lead">Quins programes executen un model, com se'n controla el comportament i com s'hi connecten altres aplicacions. Tot plegat aplicat al servidor GPU del projecte.</p>
 
