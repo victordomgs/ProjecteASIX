@@ -21,8 +21,9 @@
 
 | Fase | Contingut | Hores | Infraestructura |
 |---|---|---|---|
-| 1 | [Fonaments dels LLMs](teoria.md) (blocs 1–2) | 2 | — |
-| 3 | [Pràctica I: motors d'inferència i paràmetres](activitats.md) | 3 | Clúster CPU |
+| 1 | [Fonaments dels LLMs](teoria.md) | 1 | — |
+| 2 | [Pràctica I: motors d'inferència i paràmetres](activitats.md) | 3 | Clúster CPU |
+| 3 | [Desplegament de LLMs (GPU)](desplegament.md) | 3 | Clúster CPU |
 | 4 | [Pràctica II: API compatible OpenAI i integració](activitats.md) | 3 | Clúster CPU |
 | 5 | [Pràctica III: desplegament com a servei i seguretat](activitats.md) | 3 | Clúster CPU |
 | 6 | [Pràctica IV: migració a GPU i comparativa](activitats.md) | 3 | Servidor GPU |
