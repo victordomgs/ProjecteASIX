@@ -17,7 +17,8 @@ Dues coses a tenir presents:
 - **Sense AVX2** el model funcionarà, però més lent que en una CPU moderna.
 - **La RAM és lenta (DDR3)**. Com vau calcular, el que limita la velocitat és l'ample de banda de memòria. Per a un xat fluid, cal un model petit: **1B o 3B en Q4_K_M**.
 
-> 💡 Nota: aquests Opteron tenen cada sòcol dividit en 2 nodes NUMA (4 en total, de 16 GB cadascun). Per això, a la pràctica, la velocitat pot quedar per sota de les vostres estimacions. Ho comprovareu mesurant.
+!!! note "Arquitectura Opteron"
+    Aquests Opteron tenen cada sòcol dividit en 2 nodes NUMA (4 en total, de 16 GB cadascun). Per això, a la pràctica, la velocitat pot quedar per sota de les vostres estimacions. Ho comprovareu mesurant.
 
 ---
 
@@ -49,7 +50,8 @@ Des de la interfície web de Proxmox, **Create CT**:
 | Swap | **0** |
 | Xarxa | DHCP o IP fixa de la xarxa del laboratori |
 
-> ⚠️ **Swap a 0**: si el model acaba a la swap, la velocitat cau tant que el xat queda inservible. És preferible que falli i ajustar el model.
+!!! warning "Swap a 0"
+    Si el model acaba a la swap, la velocitat cau tant que el xat queda inservible. És preferible que falli i ajustar el model.
 
 Engegueu el contenidor i obriu-ne la consola (o entreu-hi per SSH).
 
