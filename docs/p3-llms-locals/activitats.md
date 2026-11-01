@@ -12,7 +12,15 @@ En aquesta activitat hauràs de:
 4. Distingir entre el model que hi cap i el model útil, i entendre que la quantització és el compromís entre qualitat, memòria i velocitat.
 5. Prendre i justificar decisions tècniques segons el cas d’ús i el maquinari disponible.
 
-
 [:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P3_Maquinari-i-dimensionament-I_2026-27.docx){ .md-button .md-button--primary download="P3_Maquinari-i-dimensionament-I_2026-27.docx" }
 
 **Entrega:** un document per grup amb tot el procés documentat (amb captures), en format PDF a través del [Moodle](https://frontal.ies-sabadell.cat/eva/course/view.php?id=73).
+
+## Activitat 2. Preparació entorn - Ubuntu 24.04 LTS
+
+**Objectiu:** preparar l'entorn que farem servir durant tota la part de desplegament.
+
+[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P3_Preparació-entorn_2026-27.docx){ .md-button .md-button--primary download="P3_Preparació-entorn_2026-27.docx" }
+
+**Entrega:** checkpoint, cridar al professor.
+
