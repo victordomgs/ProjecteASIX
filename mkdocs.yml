@@ -86,6 +86,7 @@ nav:
       - Fonaments dels LLMs: p3-llms-locals/teoria.md
       - Desplegament de LLMs (GPU): p3-llms-locals/desplegament.md
       - Desplegament de LLMs (CPU): p3-llms-locals/desplegament2.md
+      - Desplegament I (GPU-A1): p3-llms-locals/desplegament3.md
       - Activitats: p3-llms-locals/activitats.md
       - Avaluació: p3-llms-locals/avaluacio.md
   - "P4 · BBDD vectorials":
