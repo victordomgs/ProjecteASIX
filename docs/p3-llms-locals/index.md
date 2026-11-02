@@ -22,8 +22,9 @@
 | Fase | Contingut | Hores | Infraestructura |
 |---|---|---|---|
 | 1 | [Fonaments dels LLMs](teoria.md) | 1 | — |
-| 2 | [Pràctica I: motors d'inferència i paràmetres](activitats.md) | 3 | Clúster CPU |
+| 2 | [Activitat 1. Dimensionament d'un node del clúster](activitats.md) | 3 | Clúster CPU |
 | 3 | [Desplegament de LLMs (GPU)](desplegament.md) | 1 | - |
 | 4 | [Desplegament de LLMs (CPU)](desplegament2.md) | 1 | Clúster CPU |
-| 5 | [Pràctica II: desplegament ubuntu server (CPU Inference)](activitats.md) | 1 | Clúster CPU |
+| 5 | [Activitat 2. Preparació entorn - Ubuntu 24.04 LTS](activitats.md) | 1 | Clúster CPU |
 | 6 | [Desplegament - L'arquitectura que construirem](desplegament3.md) | 1 | Maquinari GPU A1 |
+| 7 | [Activitat 3. Desplegament S1 - GPU A1](activitats.md) | 1 | Maquinari GPU A1 |
