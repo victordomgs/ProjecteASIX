@@ -25,4 +25,5 @@
 | 2 | [Pràctica I: motors d'inferència i paràmetres](activitats.md) | 3 | Clúster CPU |
 | 3 | [Desplegament de LLMs (GPU)](desplegament.md) | 1 | - |
 | 4 | [Desplegament de LLMs (CPU)](desplegament2.md) | 1 | Clúster CPU |
-| 5 | [Pràctica II: desplegament ubuntu server (CPU Inference)](activitats.md) | 3 | Clúster CPU |
+| 5 | [Pràctica II: desplegament ubuntu server (CPU Inference)](activitats.md) | 1 | Clúster CPU |
+| 6 | [Desplegament - L'arquitectura que construirem](desplegament3.md) | 1 | Maquinari GPU A1 |
