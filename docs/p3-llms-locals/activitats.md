@@ -24,3 +24,20 @@ En aquesta activitat hauràs de:
 
 **Entrega:** checkpoint, cridar al professor.
 
+## Activitat 3. Desplegament S1 - GPU A1
+
+**Objectiu:** preparar un servidor real perquè pugui executar contenidors amb accés a la GPU, verificant-ne la seguretat, el driver i la compatibilitat amb la plataforma descrita a l’arquitectura.
+
+En aquesta activitat hauràs de:
+
+Gestionar els usuaris administradors d’un servidor amb criteris de seguretat i traçabilitat.
+Aplicar el principi de mínim privilegi a la xarxa amb un tallafoc.
+Verificar que el driver de la GPU funciona i entendre com hi intervé Secure Boot.
+Interpretar les versions de driver i de CUDA, i relacionar-les amb les imatges de contenidor que es poden fer servir.
+Instal·lar Docker i donar accés a la GPU als contenidors, entenent el paper de cada capa.
+Comprovar l’estat real del sistema en lloc de donar-lo per fet, i documentar-lo amb evidències.
+
+[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P3_Desplegament-S1_2026-27.docx){ .md-button .md-button--primary download="P3_Desplegament-S1_2026-27.docx" }
+
+**Entrega:** checkpoint, cridar al professor.
+
