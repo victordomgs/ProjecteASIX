@@ -28,3 +28,4 @@
 | 5 | [Activitat 2. Preparació entorn - Ubuntu 24.04 LTS](activitats.md) | 1 | Clúster CPU |
 | 6 | [Desplegament - L'arquitectura que construirem](desplegament3.md) | 1 | Maquinari GPU A1 |
 | 7 | [Activitat 3. Desplegament S1 - GPU A1](activitats.md) | 1 | Maquinari GPU A1 |
+| 8 | [Activitat 4. Desplegament S2 - GPU A1](activitats.md) | 2 | Maquinari GPU A1 |
