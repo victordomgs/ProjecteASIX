@@ -53,3 +53,15 @@ En aquesta activitat hauràs de:
 - Calcular si un model de llenguatge hi cap a la GPU i entendre com es reparteix la VRAM entre els pesos i la KV cache.
 
 [:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P3_Desplegament-S2_2026-27.docx){ .md-button .md-button--primary download="P3_Desplegament-S2_2026-27.docx" }
+
+## Activitat 5. Desplegament S3 - GPU A1
+
+**Objectiu:** posar una passarel·la d’API davant del model per controlar qui l’utilitza, com i quant.
+
+En aquesta activitat hauràs de:
+
+- Desplegar un servei connectat a diverses xarxes Docker, i aïllar una base de dades en una xarxa interna sense sortida a Internet.
+- Definir àlies de models per separar usos diferents sobre un mateix motor.
+- Definir per què cap usuari ha de parlar directament amb el model i quin paper té una passarel·la d'API. 
+
+[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P3_Desplegament-S3_2026-27.docx){ .md-button .md-button--primary download="P3_Desplegament-S2_2026-27.docx" }
