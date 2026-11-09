@@ -64,4 +64,4 @@ En aquesta activitat hauràs de:
 - Definir àlies de models per separar usos diferents sobre un mateix motor.
 - Definir per què cap usuari ha de parlar directament amb el model i quin paper té una passarel·la d'API. 
 
-[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P3_Desplegament-S3_2026-27.docx){ .md-button .md-button--primary download="P3_Desplegament-S2_2026-27.docx" }
+[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P3_Desplegament-S3_2026-27.docx){ .md-button .md-button--primary download="P3_Desplegament-S3_2026-27.docx" }
