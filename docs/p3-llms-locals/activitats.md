@@ -51,8 +51,5 @@ En aquesta activitat hauràs de:
 - Publicar serveis aplicant el principi de mínim privilegi: només el proxy invers exposa ports al host.
 - Comunicar contenidors entre ells a través de xarxes Docker internes, sense exposar cap port.
 - Calcular si un model de llenguatge hi cap a la GPU i entendre com es reparteix la VRAM entre els pesos i la KV cache.
-- Desplegar vLLM amb Docker Compose com un servei de producció: secrets, volums, healthcheck i xarxa interna.
-- Fer peticions a una API compatible amb OpenAI amb autenticació per clau i interpretar-ne la resposta.
-- Ajustar la configuració del motor a partir de proves mesurades i justificar-la amb dades.
 
 [:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P3_Desplegament-S2_2026-27.docx){ .md-button .md-button--primary download="P3_Desplegament-S2_2026-27.docx" }
