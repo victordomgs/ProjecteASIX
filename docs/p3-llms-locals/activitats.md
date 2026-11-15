@@ -65,3 +65,17 @@ En aquesta activitat hauràs de:
 - Definir per què cap usuari ha de parlar directament amb el model i quin paper té una passarel·la d'API. 
 
 [:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P3_Desplegament-S3_2026-27.docx){ .md-button .md-button--primary download="P3_Desplegament-S3_2026-27.docx" }
+
+## Activitat 6. Desplegament S4 - GPU A1
+
+**Objectiu:** obrir la plataforma als usuaris per una única porta d’entrada segura.
+
+En aquesta activitat hauràs de:
+
+- Desplegar una aplicació web amb les seves pròpies dependències (base de dades i cercador), aïllades en una xarxa interna.
+- Connectar una interfície de xat a la passarel·la d’API com un client més, amb la seva pròpia clau.
+- Publicar diversos serveis amb noms de domini diferents sobre una sola IP (virtual hosting).
+- Gestionar l’alta d’usuaris d’una aplicació.
+- Xifrar les connexions amb HTTPS.
+
+[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P3_Desplegament-S4_2026-27.docx){ .md-button .md-button--primary download="P3_Desplegament-S4_2026-27.docx" }
