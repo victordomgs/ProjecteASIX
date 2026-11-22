@@ -31,3 +31,4 @@
 | 8 | [Activitat 4. Desplegament S2 - GPU A1](activitats.md) | 2 | Maquinari GPU A1 |
 | 9 | [Activitat 5. Desplegament S3 - GPU A1](activitats.md) | 3 | Maquinari GPU A1 |
 | 10 | [Activitat 6. Desplegament S4 - GPU A1](activitats.md) | 3 | Maquinari GPU A1 |
+| 11 | [Activitat 7. Desplegament S5 - GPU A1](activitats.md) | 3 | Maquinari GPU A1 |
