@@ -80,7 +80,7 @@ En aquesta activitat hauràs de:
 
 [:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P3_Desplegament-S4_2026-27.docx){ .md-button .md-button--primary download="P3_Desplegament-S4_2026-27.docx" }
 
-## Activitat 6. Desplegament S4 - GPU A1
+## Activitat 7. Desplegament S5 - GPU A1
 
 **Objectiu:** operar la plataforma: controlar-ne l'ús, mesurar-ne el consum i garantir que es pot recuperar.
 
