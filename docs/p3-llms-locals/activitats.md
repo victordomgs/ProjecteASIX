@@ -79,3 +79,18 @@ En aquesta activitat hauràs de:
 - Xifrar les connexions amb HTTPS.
 
 [:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P3_Desplegament-S4_2026-27.docx){ .md-button .md-button--primary download="P3_Desplegament-S4_2026-27.docx" }
+
+## Activitat 6. Desplegament S4 - GPU A1
+
+**Objectiu:** operar la plataforma: controlar-ne l'ús, mesurar-ne el consum i garantir que es pot recuperar.
+
+En aquesta activitat hauràs de:
+
+- Tancar l'accés a l'aplicació de xat perquè només hi entrin els usuaris autoritzats.
+- Verificar de cap a cap que l'API és accessible des de fora i que només hi ha exposats els ports previstos.
+- Provocar els límits i interpretar els codis d'error que retorna l'API.
+- Consultar el consum per diferents vies, inclosa la base de dades amb SQL.
+- Canviar el model de la plataforma sense afectar els clients.
+- Fer còpies de seguretat de les bases de dades
+
+[:material-file-word: Descarrega l'enunciat (.docx)](fitxers/P3_Desplegament-S5_2026-27.docx){ .md-button .md-button--primary download="P3_Desplegament-S5_2026-27.docx" }
